@@ -47,7 +47,7 @@ gulp.task("constants", function () {
 });
 
 gulp.task("html", ["styles", "partials"], function () {
-  var assets = $.useref.assets({searchPath: [".tmp"]});
+  var assets = $.useref.assets({searchPath: [".tmp","."]});
   var jsFilter = $.filter("**/*.js");
   var cssFilter = $.filter("**/*.css");
 
