@@ -1,0 +1,9 @@
+{
+  "name": "mopfest2015",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.4",
+    "angular-ui-router": "~0.2.13",
+    "angular-mocks": "~1.3.11"
+  }
+}
