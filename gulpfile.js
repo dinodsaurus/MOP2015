@@ -154,7 +154,6 @@ gulp.task("test", ["scripts", "constants", "partials"], function () {
   var wiredep = require("wiredep");
   var bowerDeps = wiredep({
     directory: "bower_components",
-    exclude: ["bootstrap-sass-official"],
     dependencies: true,
     devDependencies: true
   });
