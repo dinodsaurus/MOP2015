@@ -1,11 +1,11 @@
 "use strict";
 angular.module("mopfest2015")
-.directive("stackList", function() {
+.directive("fullHeight", function($window) {
   return {
     restrict: "A",
-    template: "<ul><li ng-repeat='tech in technologies'>{{tech}}</li></ul>",
-    controller: function($scope, $log) {
-      $scope.technologies = ["Angular", "SASS", "Modernizer", "Gulp"];
+    link: function(scope, element) {
+      var elementHeight = $window.innerHeight;
+      element.css("height", elementHeight + "px");
     }
   };
 });

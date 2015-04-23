@@ -9,7 +9,8 @@ angular.module("mopfest2015", [
   .state("home", {
     url: "/",
     templateUrl: "main/views/home.html",
-    controller: "MainController"
+    controller: "HomeController",
+    controllerAs: "home"
   });
 
   $urlRouterProvider.otherwise("/");
