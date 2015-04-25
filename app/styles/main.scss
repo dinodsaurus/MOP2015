@@ -1,5 +1,6 @@
 @import "utils/reset";
 @import "utils/colors";
+@import "utils/fonts";
 html {
   box-sizing: border-box;
 }
@@ -9,6 +10,11 @@ html {
 body{
   background:$black;
   color:$green;
+  @include publico-normal;
+}
+.container{
+  width: 1100px;
+  margin:0 auto;
 }
 .mop2015{
   &.blue{
@@ -28,6 +34,46 @@ body{
     }
   }
 }
+.footer{
+  float:left;
+  height: 95px;
+  width: 100%;
+  background: black;
+  margin-top:50px;
+  p{
+    color:#373737;
+    a{
+      color:#373737;
+      text-decoration:none;
+      transition:color .3s;
+      line-height: 95px;
+      &:hover{
+        color:white;
+      }
+    }
+  }
+  .about{
+    float:left;
+  }
+  .social{
+    float:right;
+    margin:0;
+    padding:0;
+    li{
+      float:left;
+      margin-left:10px;
+      a{
+        color:#373737;
+        text-decoration:none;
+        transition:color .3s;
+        line-height: 95px;
+        &:hover{
+          color:white;
+        }
+      }
+    }
+  }
+}
 .home{
   .head{
     position:absolute;
@@ -39,7 +85,7 @@ body{
       text-decoration:none;
     }
     .navigation{
-      position:absolute;
+      position:fixed;
       width: 0;
       height: 130px;
       left:70px;
@@ -47,6 +93,7 @@ body{
       background:$green;
       transition:all .5s;
       color:white;
+      z-index:100;
       &.active{
         width: 100%;
         height: 100%;
@@ -56,7 +103,7 @@ body{
         }
       }
       .links{
-        position:absolute;
+        position:fixed;
         left:200px;
         top:100px;
         opacity:0;
@@ -93,6 +140,7 @@ body{
           width: 100%;
           padding-bottom:10px;
           a{
+            color:white;
             font-size:30px;
           }
         }
@@ -100,7 +148,7 @@ body{
 
     }
     .menu{
-      position:absolute;
+      position:fixed;
       top:0;
       left:0;
       width: 70px;
@@ -109,6 +157,7 @@ body{
       transition: height .5s;
       overflow:hidden;
       cursor:pointer;
+      z-index:100;
       &.active{
         height: 100%;
       }
@@ -128,6 +177,7 @@ body{
       left:-50px;
       margin-left:-8px;
       transition:left .5s;
+      z-index:101;
       &.active{
         left:30px;
       }
@@ -173,14 +223,12 @@ body{
     top:100%;
     left:0;
     width: 100%;
-    padding: 50px 0;
+    padding: 50px 0 0;
     background:#232323;
     .section{
       padding-top:100px;
     }
     .container{
-      width: 1100px;
-      margin:0 auto;
       .left,.right{
         float:left;
         width: 50%;

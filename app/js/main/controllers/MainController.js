@@ -11,4 +11,9 @@ angular.module("mopfest2015")
   this.changeColor = function (color) {
     self.color = color;
   };
+  this.switchLink = function (active) {
+    self.menu = false;
+    self.currentActive = active;
+    self.menuHover = active;
+  };
 });
