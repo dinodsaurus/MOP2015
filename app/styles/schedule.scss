@@ -1,9 +1,10 @@
 @import "utils/colors";
+@import "utils/fonts";
+
 .schedule{
   position:absolute;
   top:100%;
   width: 100%;
-  height: 1000px;
   .nav{
     position:absolute;
     top: -115px;
@@ -19,7 +20,98 @@
         background:$green;
         color: $black;
         border-right:1px solid $black;
-        padding:25px;
+        padding:30px;
+        &.active{
+          background:#1A1A1A!important;
+          color:$green;
+          &.red{
+            color:$red
+          }
+          &.blue{
+            color: $blue;
+          }
+        }
+        h4{
+          @include publico-bold;
+          font-size:36px;
+          margin-bottom:5px;
+        }
+        p{
+          font-size:14px;
+        }
+      }
+    }
+  }
+  .program{
+    padding-top:100px;
+    .pres{
+      width: 100%;
+      border-top:1px solid $mineShaft;
+      border-bottom:1px solid $mineShaft;
+      cursor:pointer;
+      margin-bottom:0;
+      &.active{
+        .hidden{
+          max-height:18px;
+        }
+        .bigHidden{
+          max-height:100px;
+        }
+        .links{
+          max-height:300px;
+        }
+      }
+      img{
+        width: 60px;
+        height: 60px;
+        border-radius:30px;
+        margin-bottom:20px;
+        filter: grayscale(100%);
+      }
+      p{
+        font-size:20px;
+        @include publico-bold;
+        line-height: 1.4;
+      }
+      .hidden, .bigHidden{
+        max-height:0;
+        font-size:12px;
+        line-height: 1.8;
+        color:$dorado;
+        overflow:hidden;
+        transition:max-height .3s;
+      }
+      .vis{
+        margin:10px 0 20px 0;
+      }
+      .links{
+        .line{
+          width: 25px;
+          height: 1px;
+          background: $green;
+          margin:25px 0;
+        }
+        a{
+          color:$dorado;
+          text-decoration:none;
+          transition:color .3s;
+          &:hover{
+            color:white;
+          }
+        }
+      }
+      &>div{
+        float:left;
+        width: 33.33%;
+        padding:20px 0;
+      }
+      .name{
+        padding:20px;
+        border-left:1px solid $mineShaft;
+        border-right:1px solid $mineShaft;
+      }
+      .theme{
+        padding:20px;
       }
     }
   }

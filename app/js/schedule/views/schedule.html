@@ -5,15 +5,15 @@
         <li class="bgChange">
           Scroll down
         </li>
-        <li class="bgChange">
+        <li class="bgChange active" ng-class="{green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Četvrtak</h4>
           <p>Dan 1 - 21.05.</p>
         </li>
-        <li class="bgChange">
+        <li class="bgChange" ng-class="{green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Petak</h4>
           <p>Dan 2 - 22.05.</p>
         </li>
-        <li class="bgChange">
+        <li class="bgChange" ng-class="{green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Subota</h4>
           <p>Dan 3 - 23.05.</p>
         </li>
@@ -21,6 +21,89 @@
     </div>
   </div>
   <div class="container">
-    <h1>Dinek</h1>
+    <div class="program">
+      <div class="pres group" ng-click="ScheduleController.active = !ScheduleController.active" ng-class="{active: ScheduleController.active}">
+        <div class="time">
+          <p class="hidden">KADA I GDJE</p>
+          <p class="vis colorChange">13.00 - 14.00</p>
+          <p class="hidden">Palača Herzer</p>
+          <p class="hidden">Franjevački trg 6</p>
+        </div>
+        <div class="name">
+          <p class="hidden">BIO</p>
+          <p class="vis colorChange">Hrvoje Šimić</p>
+          <img class="bigHidden" src="img/mop2015.jpg"/>
+          <p class="bigHidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, necessitatibus vero laudantium perferendis sed at, soluta accusamus repellat recusandae? Repellat ea, exercitationem dignissimos facere possimus iusto, est atque sunt eaque.</p>
+          <div class="links bigHidden">
+            <div class="line bgChange"></div>
+            <ul>
+              <li><a href="" class="hoverChange">Facebook</a></li>
+              <li><a href="" class="hoverChange">Drible</a></li>
+              <li><a href="" class="hoverChange">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="theme">
+          <p class="hidden">OPIS</p>
+          <p class="vis colorChange">Radionica za izradu čudo aplikacija</p>
+          <p class="bigHidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, necessitatibus vero laudantium perferendis sed at, soluta accusamus repellat recusandae? Repellat ea, exercitationem dignissimos facere possimus iusto, est atque sunt eaque.</p>
+        </div>
+      </div>
+      <div class="pres group" ng-click="ScheduleController.active = !ScheduleController.active" ng-class="{active: ScheduleController.active}">
+        <div class="time">
+          <p class="hidden">KADA I GDJE</p>
+          <p class="vis colorChange">13.00 - 14.00</p>
+          <p class="hidden">Palača Herzer</p>
+          <p class="hidden">Franjevački trg 6</p>
+        </div>
+        <div class="name">
+          <p class="hidden">BIO</p>
+          <p class="vis colorChange">Hrvoje Šimić</p>
+          <img class="bigHidden" src="img/mop2015.jpg"/>
+          <p class="bigHidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, necessitatibus vero laudantium perferendis sed at, soluta accusamus repellat recusandae? Repellat ea, exercitationem dignissimos facere possimus iusto, est atque sunt eaque.</p>
+          <div class="links bigHidden">
+            <div class="line bgChange"></div>
+            <ul>
+              <li><a href="" class="hoverChange">Facebook</a></li>
+              <li><a href="" class="hoverChange">Drible</a></li>
+              <li><a href="" class="hoverChange">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="theme">
+          <p class="hidden">OPIS</p>
+          <p class="vis colorChange">Radionica za izradu čudo aplikacija</p>
+          <p class="bigHidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, necessitatibus vero laudantium perferendis sed at, soluta accusamus repellat recusandae? Repellat ea, exercitationem dignissimos facere possimus iusto, est atque sunt eaque.</p>
+        </div>
+      </div>
+      <div class="pres group" ng-click="ScheduleController.active = !ScheduleController.active" ng-class="{active: ScheduleController.active}">
+        <div class="time">
+          <p class="hidden">KADA I GDJE</p>
+          <p class="vis colorChange">13.00 - 14.00</p>
+          <p class="hidden">Palača Herzer</p>
+          <p class="hidden">Franjevački trg 6</p>
+        </div>
+        <div class="name">
+          <p class="hidden">BIO</p>
+          <p class="vis colorChange">Hrvoje Šimić</p>
+          <img class="bigHidden" src="img/mop2015.jpg"/>
+          <p class="bigHidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, necessitatibus vero laudantium perferendis sed at, soluta accusamus repellat recusandae? Repellat ea, exercitationem dignissimos facere possimus iusto, est atque sunt eaque.</p>
+          <div class="links bigHidden">
+            <div class="line bgChange"></div>
+            <ul>
+              <li><a href="" class="hoverChange">Facebook</a></li>
+              <li><a href="" class="hoverChange">Drible</a></li>
+              <li><a href="" class="hoverChange">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="theme">
+          <p class="hidden">OPIS</p>
+          <p class="vis colorChange">Radionica za izradu čudo aplikacija</p>
+          <p class="bigHidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, necessitatibus vero laudantium perferendis sed at, soluta accusamus repellat recusandae? Repellat ea, exercitationem dignissimos facere possimus iusto, est atque sunt eaque.</p>
+        </div>
+      </div>
+    </div>
   </div>
+  <div ng-include src="'main/views/footer.html'"></div>
 </div>

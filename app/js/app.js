@@ -3,7 +3,8 @@ angular.module("mopfest2015", [
   "constants",
   "ui.router",
   "templates",
-  "sticky"
+  "sticky",
+  "LocalStorageModule"
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider
