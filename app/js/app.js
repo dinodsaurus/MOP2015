@@ -35,9 +35,7 @@ angular.module("mopfest2015", [
     url: "/guests",
     views: {
       "content": {
-        controller: "ScheduleController",
-        controllerAs: "schedule",
-        templateUrl: "schedule/views/schedule.html"
+        templateUrl: "guests/views/guests.html"
        }
     }
   })

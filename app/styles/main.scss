@@ -152,7 +152,7 @@ a{
       }
       .links{
         position:fixed;
-        left:200px;
+        left:-100%;
         top:100px;
         opacity:0;
         transition:all .55s;
@@ -291,6 +291,7 @@ a{
     background:#232323;
     .section{
       padding-top:140px;
+
     }
     .container{
       .left,.right{
