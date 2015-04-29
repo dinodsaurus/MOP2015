@@ -25,6 +25,15 @@ a{
 }
 .mop2015{
   &.blue{
+    .guests{
+      a{
+        &:hover{
+          h3{
+            color:$blue!important;
+          }
+        }
+      }
+    }
     .bgChange{
       background:$blue!important;
     }
@@ -38,6 +47,15 @@ a{
     }
   }
   &.red{
+    .guests{
+      a{
+        &:hover{
+          h3{
+            color:$red!important;
+          }
+        }
+      }
+    }
     .bgChange{
       background:$red!important;
     }
@@ -155,7 +173,7 @@ a{
         left:-100%;
         top:100px;
         opacity:0;
-        transition:all .55s;
+        transition:all .4s;
         .line{
           position:absolute;
           left:-130px;
