@@ -17,18 +17,19 @@
         width: 25%;
         height: 115px;
         float:left;
-        background:$green;
+        background:#1A1A1A;
+
         color: $black;
         border-right:1px solid $black;
         padding:30px;
         &.active{
-          background:#1A1A1A!important;
-          color:$green;
+          color:#1A1A1A!important;
+          background:$green;
           &.red{
-            color:$red
+            background:$red
           }
           &.blue{
-            color: $blue;
+            background: $blue;
           }
         }
         h4{

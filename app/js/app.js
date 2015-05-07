@@ -4,7 +4,8 @@ angular.module("mopfest2015", [
   "ui.router",
   "templates",
   "sticky",
-  "LocalStorageModule"
+  "LocalStorageModule",
+  "uiGmapgoogle-maps"
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider
@@ -43,9 +44,9 @@ angular.module("mopfest2015", [
     url: "/location",
     views: {
       "content": {
-        controller: "ScheduleController",
-        controllerAs: "schedule",
-        templateUrl: "schedule/views/schedule.html"
+        controller: "LocationController",
+        controllerAs: "location",
+        templateUrl: "location/views/location.html"
        }
     }
   })

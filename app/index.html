@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles/schedule.css">
     <link rel="stylesheet" href="styles/guests.css">
     <link rel="stylesheet" href="styles/partners.css">
+    <link rel="stylesheet" href="styles/location.css">
     <!-- endbuild -->
 
   </head>
@@ -44,7 +45,7 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
-
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/angular/angular.js"></script>
@@ -53,6 +54,8 @@
     <script src="/bower_components/matchmedia/matchMedia.js"></script>
     <script src="/bower_components/ngSticky/lib/sticky.js"></script>
     <script src="/bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+    <script src="/bower_components/lodash/dist/lodash.compat.js"></script>
+    <script src="/bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -67,6 +70,7 @@
     <script src="js/main/controllers/HomeController.js"></script>
 
     <script src="js/schedule/controllers/ScheduleController.js"></script>
+    <script src="js/location/controllers/LocationController.js"></script>
     <!-- endbuild -->
   </body>
   </html>

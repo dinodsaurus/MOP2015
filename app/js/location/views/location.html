@@ -1,0 +1,66 @@
+<div class="guests">
+  <div class="container">
+    <div class="top" sticky>
+      <div class="line bgChange"></div>
+      <h2>Varaždin</h2>
+      <a>Scroll down</a>
+    </div>
+    <div class="location">
+      <div class="firstSec">
+        <p>Predavanja</p>
+        <h3>Palača Herzer<br/>Franjevački trg 6</h3>
+        <h4>Sva predavanja i radionice održavaju se u palači Herzer u samom centru grada. Palača osim glavne predavaone služi kao i izložbeni prostor.</h4>
+      </div>
+      <div class="imgs">
+        <div class="img first">
+          <p>Velika dvorana</p>
+          <img src="img/cover_1.png" alt="">
+        </div>
+        <div class="img second">
+          <p>Odlična atmosfera</p>
+          <img src="img/mop2015.jpg" alt="">
+        </div>
+      </div>
+      <div class="fun">
+        <p>Zabava</p>
+        <h3>ATRIJ STARI GRAD <br/>I LAVRA BAR</h3>
+        <h4>Večernji dio programa odvijati će se u 21.05 i 22.05 u baru Lavra dok će završni party biti u atriju Starog grada u Varaždinu.</h4>
+        <img src="img/mop2015.jpg" alt="">
+      </div>
+      <div class="map">
+        <p>DOBRO JE ZNATI</br>
+            Svi putevi vode u Varaždin!</p>
+        <ul>
+          <li>
+            <p>New York</p>
+            <p>6908 km</p>
+          </li>
+          <li>
+            <p>Tokyo</p>
+            <p>9294 km</p>
+          </li>
+          <li>
+            <p>Berlin</p>
+            <p>723 km</p>
+          </li>
+          <li>
+            <p>London</p>
+            <p>1332 km</p>
+          </li>
+          <li>
+            <p>Barcelona</p>
+            <p>1259 km</p>
+          </li>
+          <li>
+            <p>Zagreb :)</p>
+            <p>61 km</p>
+          </li>
+        </ul>
+        <div class="gmap">
+          <ui-gmap-google-map center="location.map.center" zoom="location.map.zoom" options="location.options"></ui-gmap-google-map>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ng-include src="'main/views/footer.html'"></div>
+</div>
