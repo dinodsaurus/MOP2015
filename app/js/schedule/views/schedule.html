@@ -5,15 +5,15 @@
         <li class="colorChange">
           Scroll down
         </li>
-        <li class="colorChange active" ng-class="{green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
+        <li class="colorChange" ng-click="schedule.switchDay()" ng-class="{active: schedule.activeDay === 1, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Četvrtak</h4>
           <p>Dan 1 - 21.05.</p>
         </li>
-        <li class="colorChange" ng-class="{green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
+        <li class="colorChange" ng-click="schedule.switchDay(2)" ng-class="{active: schedule.activeDay === 2, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Petak</h4>
           <p>Dan 2 - 22.05.</p>
         </li>
-        <li class="colorChange" ng-class="{green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
+        <li class="colorChange" ng-click="schedule.switchDay(3)" ng-class="{active: schedule.activeDay === 3, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Subota</h4>
           <p>Dan 3 - 23.05.</p>
         </li>
@@ -32,9 +32,9 @@
         <div class="name">
           <p class="hidden">BIO</p>
           <p class="vis colorChange">{{ guest.name }}</p>
-          <img class="bigHidden" ng-src="{{guest.img}}"/>
+          <img class="bigHidden" ng-src="img/guests/{{guest.img}}"/>
           <p class="bigHidden">{{ guest.bio }}</p>
-          <div class="links bigHidden">
+          <div class="links bigHidden" ng-if="guest.links.length">
             <div class="line bgChange"></div>
             <ul>
               <li ng-repeat="link in guest.links"><a ng-href="{{link.link}}" class="hoverChange" target="_blank">{{ link.name }}</a></li>

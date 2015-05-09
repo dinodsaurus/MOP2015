@@ -5,7 +5,8 @@ angular.module("mopfest2015", [
   "templates",
   "sticky",
   "LocalStorageModule",
-  "uiGmapgoogle-maps"
+  "uiGmapgoogle-maps",
+  "ngAnimate"
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider

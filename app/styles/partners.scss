@@ -28,22 +28,84 @@
     }
   }
   .icons{
-    .left, .right{
+    .left{
+      position:relative;
+      float:left;
+      width: 50%;
+      min-height:100px;
+      border-left: 1px solid $codGray;
+      border-top: 1px solid $codGray;
+      border-bottom: 1px solid $codGray;
+      height: 552px;
+      img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+    .second{
+      position:relative;
+      width: 100%;
+      padding:0;
+      border:none;
+      .icon{
+        position:relative;
+        float:left;
+        width: 25%;
+        height: 276px;
+        min-height:50px;
+        border: 1px solid $codGray;
+
+        &.big{
+          width: 100%;
+          img{
+            width: 50%;
+          }
+        }
+        img{
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+    }
+    .right{
       float:left;
       width: 50%;
       min-height:100px;
       .icon{
+        position:relative;
         float:left;
         width: 50%;
         border: 1px solid $codGray;
         padding:40px;
+        height: 276px;
+        &:nth-child(1){
+          border-right:none;
+          border-bottom:none;
+        }
+        &:nth-child(2){
+          border-bottom:none;
+        }
         &.big{
           width: 100%;
+          img{
+            width: 50%;
+          }
         }
         img{
-          display:block;
-          width: 100%;
-          margin:auto;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
         }
       }
     }

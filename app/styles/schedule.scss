@@ -10,6 +10,7 @@
     top: -115px;
     height: 115px;
     width: 100%;
+    z-index: 10;
     ul{
       width: 100%;
       height: 115px;
@@ -22,6 +23,8 @@
         color: $black;
         border-right:1px solid $black;
         padding:30px;
+        transition: background .3s;
+        cursor:pointer;
         &.active{
           color:#1A1A1A!important;
           background:$green;
@@ -51,6 +54,22 @@
       border-bottom:1px solid $mineShaft;
       cursor:pointer;
       margin-bottom:0;
+      margin-left:0;
+      &.ng-move,
+      &.ng-enter,
+      &.ng-leave {
+        transition:margin 0.4s;
+      }
+      &.ng-leave,
+      &.ng-leave.ng-leave-active{
+        margin-left:-100%;
+      }
+      &.ng-enter {
+        margin-left:100%;
+      }
+      &.ng-enter.ng-enter-active {
+        margin-left:0%;
+      }
       &.active{
         .hidden{
           max-height:18px;

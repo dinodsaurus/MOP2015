@@ -1,13 +1,295 @@
 { "guests" : [
   {
-    "name": "Dino Trojak",
-    "time": "16.00 - 18.00",
+    "name": "Radiona.org",
+    "time": "13.00 - 20.00",
+    "bio": "Electro-Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
+    "links": [
+      {
+        "name": "Radiona.org",
+        "link": "http://radiona.org/"
+      },
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/Radiona.org"
+      }
+    ],
+    "workshop": {
+      "name": "Izložba  Electro-Baroque",
+      "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio-instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
+    }
+  },
+  {
+    "name": "MOP Kinoteka",
+    "time": "13.00 - 20.00",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "img": "img/mop2015.jpg",
     "links": [
       {
         "name": "Twitter",
         "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Projekcije dokumentranih filmova",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Studenti UNIN",
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Izložba odgovor nepoznatog",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Square Cube",
+    "time": "13.00 - 20.00",
+    "img": "cube.png",
+    "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
+    "workshop": {
+      "name": "Instalacija u prostoru",
+      "description": " Projekt Square cube zamišljen je kao instalacija koja će skrenuti pažnju na ljepotu svakodnevnih uličnih prizora, te potaknuti prolaznike da aktivno (ili pasivno) sudjeluju u realizaciji kao promatrači ili objekt promatranja i naposljetku i sami postanu dio projekta."
+    }
+  },
+  {
+    "name": "Ivan Malenica",
+    "time": "13.00 - 15.00",
+    "img": "ivan_malenica_img.png",
+    "bio": "Ivan Malenica je bivši student Veleučilišta u Varaždinu. Tijekom studiranja je s nekoliko kolega producirao studentsku emisiju za Varaždinsku Televiziju, a nakon toga i video spotove tada neafirmiranim izvođačima. Trenutno radi kao montažer informativnog programa na jednoj od nacionalnih televizija gdje je stekao trogodišnje iskustvo.",
+    "links": [
+      {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/pub/ivan-malenica/48/828/4a1"
+      }
+    ],
+    "workshop": {
+      "name": "Montaža televizijskog priloga u AVIDu",
+      "description": "Sudionici će biti upoznati sa svim koracima produkcijskog lanca priloga u digitalnoj televizijskoj redakciji. Kroz montažu priloga na radionici bit će istaknute prednosti i nedostaci AVIDa kao softvera za ne linearnu montažu, te detaljnije pojašnjenjeni svi koraci lanca. "
+    }
+  },
+  {
+    "name": "Dario Belić",
+    "time": "15.00 - 17.00",
+    "img": "dario_belic_img.png",
+    "bio": "Freelance fotograf i snimatelj, student fotografije na Akademiji dramske umjetnosti u Zagrebu.",
+    "links": [
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/dariobphotography"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dariobelic"
+      },
+      {
+        "name": "Beehance",
+        "link": "https://www.behance.net/dariobelic"
+      }
+    ],
+    "workshop": {
+      "name": "Uvod u produkt fotografiju",
+      "description": "Radionica se sastoji od predavanja i praktičnog djela. Fokus je na definiranju osnovnih pojmova, uvoda u svjetlo,  kategorizacije produkt fotografija, praktičnih savjeta i primjene."
+    }
+  },
+  {
+    "name": "Iva Oborovac",
+    "time": "17.00 - 18.30",
+    "img": "iva_obrovac_img.png",
+    "bio": "Iva radi kao performance marketing specialist u agenciji 404, a od nedugo je i Google certificirani trener. Svakodnevno se bavi upravljanjem Google Adwords, Facebook i Linkedin kampanjama, pisanjem CPC strategija te analiziranjem i izvještavanjem prema podacima iz Google Analyticsa. Posebno voli ecommerce, remarketing i Youtube kampanje.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/iobrovac"
+      },
+      {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/iobrovac"
+      }
+    ],
+    "workshop": {
+      "name": "Osnove Google Analyticsa i radionica UTM linkova",
+      "description": "Google Analytics je najpopularniji alat za prikupljanje, mjerenje, analizu i interpretaciju Internet podataka. Na predavanju saznajte zašto je Google Analytics danas neizostavan, što je sve moguće mjeriti putem Google Analyticsa i na koji način Google Analytics može utjecati na uspješnost vaših kampanja i na optimizaciju poslovanja. U nastavku, saznajte što su to UTM linkovi i zašto se koriste te steknite praktična znanja tijekom male radionice UTM linkova kroz URL builder alat."
+    }
+  },
+  {
+    "name": "MOP",
+    "time": "17.00 - 18.30",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Službeno otvorenje festivala",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Bar Lavra",
+    "time": "21.30 - 02.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Glazbena večer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  }
+],
+"guests2": [
+  {
+    "name": "Mihael Mikolšić, Luka Marčec",
+    "time": "10.00 - 11.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Things you should know about design school — before you apply",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Radiona.org",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Electro-Baroque",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "MOP Kinoteka",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Projekcije dokumentranih filmova",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Studenti UNIN",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Izložba odgovor nepoznatog",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Square Cube",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Instalacija u prostoru",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Hrvoje Šimić",
+    "time": "13.00 - 15.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Izrada ekspresnih web aplikacija uz Node.js",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Andro Rezić - Broj42",
+    "time": "15.00 - 16.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Gitak - uvod u Git",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Darko Čengija - UX passion",
+    "time": "16.00 - 17.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Uvod u UX tehnike",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Dino Trojak - COBE",
+    "time": "17.00 - 18.30",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "dinodsaur.us",
+        "link": "http://dinodsaur.us/"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/dinodsaurus"
       }
     ],
     "workshop": {
@@ -16,7 +298,164 @@
     }
   },
   {
-    "name": "Dino Trojak",
+    "name": "Tomislav Car - Infinum",
+    "time": "19.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Infinum co.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Bar Lavra",
+    "time": "21.30 - 02.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Glazbena večer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  }
+],
+"guests3": [
+  {
+    "name": "Poster",
+    "time": "10.00 - 11.30",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Motion graphics - Adobe After Effects",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Poster",
+    "same": true,
+    "time": "11.30 - 12.30",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Keying and compositing - Nuke",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Radiona.org",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Electro-Baroque",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "MOP Kinoteka",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Projekcije dokumentranih filmova",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Studenti UNIN",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Izložba odgovor nepoznatog",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Square Cube",
+    "same": true,
+    "time": "13.00 - 20.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Instalacija u prostoru",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Mario Janković",
+    "time": "13.00 - 14.30",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Nije RWD sve što sja",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Bruno Blažinć",
+    "time": "14.30 - 16.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "3dprint",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Vedran Klemens",
     "time": "16.00 - 18.00",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "links": [
@@ -26,8 +465,140 @@
       }
     ],
     "workshop": {
-      "name": "Automatizirano testiranje aplikacija",
+      "name": "3dprint",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   },
-]}
+  {
+    "name": "Dribble meetup",
+    "time": "18.30 - 21.30"
+  },
+  {
+    "name": "Degordian",
+    "time": "19.00 - 19.20",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Kad dizajn tim prestaje biti dizajn tim?!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Unity",
+    "time": "19.20 - 19.40",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Eat, Sleep, Dribbble, Repeat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Dribbble quiz",
+    "time": "19.40 - 20.00"
+  },
+  {
+    "name": "Five",
+    "time": "20.00 - 20.20",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Training First",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Infinum",
+    "time": "20.20 - 20.40",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Sketch: alat za dizajn korisničkog sučelja",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "PARTY - TVRĐAVA STARI GRAD",
+    "time": "22.00 - 04.00"
+  },
+  {
+    "name": "FnF5",
+    "time": "20.20 - 20.40",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "3D maping instalacija",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Chui",
+    "time": "22.00 - 00.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "rock jazz ambiental electronic minimal d'n'b hip hop funk space spiritual",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Sir John",
+    "time": "00.00 - 02.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Strictly Reggae",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  {
+    "name": "Kodin",
+    "time": "02.00 - 04.00",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "links": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/dinodsaurus"
+      }
+    ],
+    "workshop": {
+      "name": "Drum and Bass",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  }]
+}
