@@ -1,8 +1,8 @@
 "use strict";
 
 angular.module("mopfest2015")
-.controller("LocationController", function () {
-  console.log("location");
+.controller("LocationController", function ($scope) {
+  $scope.$emit("switchLink", {"nav": "fourth", "text": "Lokacija"});
   this.map = {
     center: { latitude: 46.3044444, longitude: 16.3377778 },
     zoom: 15

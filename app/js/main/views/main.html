@@ -39,16 +39,18 @@
             <a ui-sref="main.partners" ng-click="main.switchLink('fifth')">Partneri</a>
           </li>
           <li ng-mouseenter="main.menuHover = 'sixth'" ng-mouseleave="main.menuHover = main.currentActive">
-            <a ng-click="main.switchLink('sixth')">Info</a>
+            <a ui-sref="main.about" ng-click="main.switchLink('sixth')">Info</a>
           </li>
         </ul>
       </div>
     </div>
     <div class="text">
       <div class="container">
-        <div class="bck"></div>
-        <h1 class="colorChange">Digital world<br/> in focus</h1>
-        <h2 class="colorChange">MOP 04<br/> Festival multimedije<br/> 21.5. — 23.5.2015.</br> Varaždin</h2>
+        <div class="bck" ng-style="main.headImg"></div>
+        <div class="headText">
+          <h1 class="colorChange">{{ main.headText }}</h1>
+          <h2 class="colorChange">MOP 04<br/> Festival multimedije<br/> 21.5. — 23.5.2015.</br> Varaždin</h2>
+        </div>
       </div>
     </div>
   </div>

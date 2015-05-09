@@ -18,6 +18,7 @@ angular.module("mopfest2015", [
     views: {
       "content": {
         controller: "HomeController",
+        controllerAs: "home",
         templateUrl: "main/views/home.html"
        }
     }
@@ -36,6 +37,8 @@ angular.module("mopfest2015", [
     url: "/guests",
     views: {
       "content": {
+        controller: "GuestsController",
+        controllerAs: "guests",
         templateUrl: "guests/views/guests.html"
        }
     }
@@ -54,18 +57,20 @@ angular.module("mopfest2015", [
     url: "/partners",
     views: {
       "content": {
+        controller: "PartnersController",
+        controllerAs: "partners",
         templateUrl: "partners/views/partners.html"
        }
 
     }
   })
-  .state("main.info", {
-    url: "/ifo",
+  .state("main.about", {
+    url: "/about",
     views: {
       "content": {
-        controller: "ScheduleController",
-        controllerAs: "schedule",
-        templateUrl: "schedule/views/schedule.html"
+        controller: "AboutController",
+        controllerAs: "about",
+        templateUrl: "about/views/about.html"
        }
     }
   });

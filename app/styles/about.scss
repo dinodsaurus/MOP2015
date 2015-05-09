@@ -1,0 +1,72 @@
+@import "utils/colors";
+@import "utils/fonts";
+
+.about{
+  padding-top:100px;
+  .text{
+    float:right;
+    width:560px;
+    h3{
+      font-size:36px;
+      @include publico-bold;
+      margin-bottom:20px;
+      text-transform:uppercase;
+    }
+    h4{
+      font-size:20px;
+      line-height: 1.5;
+      margin-bottom:20px;
+    }
+    p{
+      font-size:16px;
+      color:$dorado;
+      line-height: 1.5;
+
+    }
+  }
+  .links{
+    float:right;
+    width: 560px;
+    padding-top:50px;
+    margin-top:30px;
+    border-top:1px solid $dorado;
+    .left{
+      float:left;
+      width: 100px;
+      h3{
+        color:$dorado;
+        @include publico-bold;
+        font-size:14px;
+        line-height: 1.5;
+      }
+    }
+    .right{
+      float:right;
+      width: 460px;
+      p{
+        color:$dorado;
+        font-size:14px;
+        line-height: 1.5;
+      }
+      a{
+        color:$dorado;
+        text-decoration:none;
+        font-size:14px;
+      }
+    }
+  }
+  .img{
+    float:left;
+    width: 100%;
+    margin:50px 0;
+    img{
+      float:right;
+      width: 960px;
+      opacity:.5;
+      transition:opacity .3s;
+      &:hover{
+        opacity:1;
+      }
+    }
+  }
+}
