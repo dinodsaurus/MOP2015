@@ -37,10 +37,12 @@
   }
   .list{
     li{
+      position:relative;
       float:left;
       width: 33.33%;
       border: 1px solid $codGray;
       padding:50px;
+      height: 510px;
       transition:background .3s;
       &:hover{
         background:$codGray;
@@ -64,9 +66,12 @@
         color:$dorado;
         @include publico-bold;
         font-size:24px;
+        line-height: 1.5;
       }
       img{
-        width: 100%;
+        position:absolute;
+        bottom:45px;
+        width: 265px;
         border-radius: 50%;
         opacity:.8;
         transition:all .3s;

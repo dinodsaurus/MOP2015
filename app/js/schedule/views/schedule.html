@@ -22,18 +22,21 @@
   </div>
   <div class="container">
     <div class="program">
-      <div class="pres group" ng-repeat="guest in schedule.guests" ng-click="guest.active = !guest.active" ng-class="{active: guest.active}">
+      <div class="pres group" ng-repeat="guest in schedule.guests" ng-if="guest.time" ng-click="guest.active = !guest.active" ng-class="{active: guest.active}">
         <div class="time">
           <p class="hidden">KADA I GDJE</p>
           <p class="vis colorChange">{{ guest.time }}</p>
-          <p class="hidden">Palača Herzer</p>
-          <p class="hidden">Franjevački trg 6</p>
+          <p class="hidden" ng-if="!guest.type">Palača Herzer</p>
+          <p class="hidden" ng-if="!guest.type">Franjevački trg 6</p>
+          <p class="hidden" ng-if="guest.type === 'lavra'">Bar Lavra</p>
+          <p class="hidden" ng-if="guest.type === 'lavra'">Ulica Ljudevita Gaja 17</p>
         </div>
         <div class="name">
           <p class="hidden">BIO</p>
           <p class="vis colorChange">{{ guest.name }}</p>
-          <img class="bigHidden" ng-src="img/guests/{{guest.img}}"/>
-          <p class="bigHidden">{{ guest.bio }}</p>
+          <img ng-if="guest.img" class="bigHidden" ng-src="img/guests/{{guest.img}}"/>
+          <img ng-if="guest.imgs" ng-repeat="img in guest.imgs" class="bigHidden" ng-src="img/guests/{{img}}"/>
+          <p class="bigHidden" ng-class="{bigDesc: guest.bigDesc}">{{ guest.bio }}</p>
           <div class="links bigHidden" ng-if="guest.links.length">
             <div class="line bgChange"></div>
             <ul>
@@ -44,7 +47,8 @@
         <div class="theme">
           <p class="hidden">OPIS</p>
           <p class="vis colorChange">{{guest.workshop.name}}</p>
-          <p class="bigHidden">{{ guest.workshop.description }}</p>
+          <p class="bigHidden" ng-if="!guest.workshop.descriptions" ng-class="{bigDesc: guest.bigDesc}">{{guest.workshop.description}}</p>
+          <p class="bigHidden" ng-if="guest.workshop.descriptions" ng-repeat="desc in guest.workshop.descriptions">{{desc}}</p>
         </div>
       </div>
     </div>

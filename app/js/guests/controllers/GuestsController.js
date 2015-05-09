@@ -7,15 +7,17 @@ angular.module("mopfest2015")
   $scope.$emit("switchLink", {"nav": "third", "text": "Gosti"});
   GuestService.getGuests().then(data => {
     data.guests.forEach(guest => {
-      self.guests.push(guest);
+      if(!guest.guestNoShow){
+        self.guests.push(guest);
+      }
     });
     data.guests2.forEach(guest => {
-      if(!guest.same && guest.workshop){
+      if(!guest.same && !guest.guestNoShow){
         self.guests.push(guest);
       }
     });
     data.guests3.forEach(guest => {
-      if(!guest.same && guest.workshop){
+      if(!guest.same && !guest.guestNoShow){
         self.guests.push(guest);
       }
     });
