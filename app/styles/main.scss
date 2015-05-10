@@ -44,6 +44,7 @@ a{
       color: $blue!important;
     }
     .hoverChange{
+      transition:color .3s;
       &:hover{
         color: $blue!important;
       }
@@ -69,6 +70,7 @@ a{
       color: $red!important;
     }
     .hoverChange{
+      transition:color .3s;
       &:hover{
         color: $red!important;
       }
@@ -237,6 +239,21 @@ a{
       z-index:100;
       &.active{
         height: 100%;
+        .icon-hamburger{
+          left:120%;
+        }
+        .icon-X{
+          left:20px;
+        }
+      }
+      span{
+        position:absolute;
+        top:30px;
+        left:20px;
+        transition: all .5s;
+      }
+      .icon-X{
+        left:-50px;
       }
       p{
         position:absolute;
@@ -303,6 +320,7 @@ a{
         position:absolute;
         top:50%;
         margin-top:-200px;
+        cursor:pointer;
       }
     }
 
@@ -327,6 +345,28 @@ a{
     width: 100%;
     padding: 50px 0 0;
     background:#232323;
+    .goDown{
+      cursor:pointer;
+      position:absolute;
+      top:-130px;
+      width: 70px;
+      height: 130px;
+      background: $mineShaft;
+      span{
+        position:absolute;
+        left:30px;
+        top:90px;
+        font-size:18px;
+      }
+      p{
+        color:$dorado;
+        font-size:18px;
+        position:absolute;
+        top:40px;
+        left:15px;
+        transform: rotate(-90deg);
+      }
+    }
     .section{
       padding-top:140px;
 

@@ -16,12 +16,13 @@ angular.module("mopfest2015")
 
   GuestService.getGuests().then(data => {
     guests = data;
-    if(day){
+    if(day && day !== "1"){
       self.guests = data["guests" + day];
     }else{
       self.guests = data.guests;
     }
     if(guest){
+      console.log(self.guests);
       self.guests.forEach(gu => {
         if(gu.id === parseInt(guest, 10)){
           gu.active = true;

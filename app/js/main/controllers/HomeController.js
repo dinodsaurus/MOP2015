@@ -2,6 +2,6 @@
 
 angular.module("mopfest2015")
 .controller("HomeController", function ($scope) {
-  $scope.$emit("switchLink", {"nav": "first", "text": "Digital world<br/> in focus"});
+  $scope.$emit("switchLink", {"nav": "first", "text": "Digital world in focus"});
 
 });

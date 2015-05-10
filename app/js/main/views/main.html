@@ -2,6 +2,8 @@
   <div class="head" full-height>
     <a ng-click="main.toggleMenu()">
       <div class="menu" ng-class="{active: main.menu}">
+        <span class="icon-hamburger colorChange"></span>
+        <span class="icon-X colorChange"></span>
         <p>Menu</p>
       </div>
     </a>
@@ -47,7 +49,7 @@
     <div class="text">
       <div class="bck" ng-style="main.headImg"></div>
       <div class="container">
-        <div class="headText">
+        <div class="headText" ng-mouseenter="main.generateImage()">
           <h1 class="colorChange">{{ main.headText }}</h1>
           <h2 class="colorChange">MOP 04<br/> Festival multimedije<br/> 21.5. — 23.5.2015.</br> Varaždin</h2>
         </div>

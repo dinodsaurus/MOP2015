@@ -1,11 +1,11 @@
 <div class="schedule">
-  <div class="nav" sticky>
+  <div class="nav" sticky sticky-class="active">
     <div class="container">
       <ul>
-        <li class="colorChange">
+        <li class="arr">
           <div class="arrows">
-            <a class="first" ng-click="main.scrollTo('win')">Scroll down <span class="icon-arrow_down colorChange"></span></a>
-            <a class="second" ng-click="main.scrollTo(0)">Scroll up <span class="icon-arrow_up colorChange"></span></a>
+            <a class="first hoverChange" ng-click="main.scrollTo('win')"><span class="icon-arrow_down colorChange"></span> Scroll down</a>
+            <a class="second hoverChange" ng-click="main.scrollTo(0)"><span class="icon-arrow_up colorChange"></span>Scroll up</a>
           </div>
         </li>
         <li class="colorChange" ng-click="schedule.switchDay()" ng-class="{active: schedule.activeDay == 1, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
