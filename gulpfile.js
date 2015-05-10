@@ -97,6 +97,7 @@ gulp.task("serve",  ["styles", "constants", "partials", "scripts"],function () {
   browserSync({
     notify: false,
     port: 9000,
+    ghostMode: false,
     server: {
       baseDir: [".tmp", "app"],
       routes: {

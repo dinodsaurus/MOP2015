@@ -1,15 +1,23 @@
 <div class="guests">
   <div class="container">
-    <div class="top" sticky>
+    <div class="top" sticky sticky-class="active">
       <div class="line bgChange"></div>
       <h2>Varaždin</h2>
-      <a>Scroll down</a>
+      <div class="arrows">
+        <a class="first"  ng-click="main.scrollTo('win')">Scroll down <span class="icon-arrow_down colorChange"></span></a>
+        <a class="second" ng-click="main.scrollTo(0)">Scroll up <span class="icon-arrow_up colorChange"></span></a>
+      </div>
     </div>
     <div class="location">
       <div class="firstSec">
         <p>Predavanja</p>
         <h3 class="colorChange">Palača Herzer<br/>Franjevački trg 6</h3>
         <h4 class="colorChange">Sva predavanja i radionice održavaju se u palači Herzer u samom centru grada. Palača osim glavne predavaone služi kao i izložbeni prostor.</h4>
+      </div>
+      <div class="loc">
+        <img ng-if="main.color === 'green'" src="img/lokacija/green.png" alt="">
+        <img ng-if="main.color === 'blue'" src="img/lokacija/blue.png" alt="">
+        <img ng-if="main.color === 'red'" src="img/lokacija/red.png" alt="">
       </div>
       <div class="imgs">
         <div class="img first">
@@ -24,7 +32,7 @@
       <div class="fun">
         <p>Zabava</p>
         <h3 class="colorChange">ATRIJ STARI GRAD <br/>I LAVRA BAR</h3>
-        <h4 class="colorChange">Večernji dio programa odvijati će se u 21.05 i 22.05 u baru Lavra dok će završni party biti u atriju Starog grada u Varaždinu.</h4>
+        <h4 class="colorChange">Večernji dio programa odvijati će se u 21.05. i 22.05. u baru Lavra dok će završni party biti u atriju Starog grada u Varaždinu.</h4>
         <img src="img/zabava.jpg" alt="">
       </div>
       <div class="map">
@@ -57,7 +65,12 @@
           </li>
         </ul>
         <div class="gmap">
-          <ui-gmap-google-map center="location.map.center" zoom="location.map.zoom" options="location.options"></ui-gmap-google-map>
+          <ui-gmap-google-map center="location.map.center" zoom="location.map.zoom" options="location.options">
+            <ui-gmap-window coords="'coordinates'" show="windowOptions.show" closeClick="closeClick()">
+                <div>Hello</div>
+            </ui-gmap-window>
+            <ui-gmap-markers models="location.markers" coords="'coordinates'" icon="'icon'"></ui-gmap-markers>
+          </ui-gmap-google-map>
         </div>
       </div>
     </div>

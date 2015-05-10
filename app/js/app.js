@@ -6,9 +6,10 @@ angular.module("mopfest2015", [
   "sticky",
   "LocalStorageModule",
   "uiGmapgoogle-maps",
-  "ngAnimate"
+  "ngAnimate",
+  "duScroll"
 ])
-.config(function ($stateProvider, $urlRouterProvider) {
+.config(function ($stateProvider, $urlRouterProvider, $anchorScrollProvider) {
   $stateProvider
   .state("main", {
     abstract: true,
@@ -25,7 +26,7 @@ angular.module("mopfest2015", [
     }
   })
   .state("main.schedule", {
-    url: "/schedule",
+    url: "/schedule?day&guest",
     views: {
       "content": {
         controller: "ScheduleController",
@@ -75,7 +76,7 @@ angular.module("mopfest2015", [
        }
     }
   });
-
+  $anchorScrollProvider.disableAutoScrolling();
   $urlRouterProvider.otherwise("/");
 })
 ;

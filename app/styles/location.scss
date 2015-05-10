@@ -22,6 +22,11 @@
       opacity:1;
     }
   }
+  .loc{
+    img{
+      width: 100%;
+    }
+  }
   .firstSec{
     width: 50%;
     float:right;
@@ -35,7 +40,7 @@
   }
   .imgs{
     position:relative;
-    margin-top:90px;
+    margin-top:20px;
     width: 100%;
     float:left;
     padding-bottom:260px;
@@ -83,6 +88,9 @@
     width: 100%;
     float: left;
     margin-top:100px;
+    img{
+      opacity:1;
+    }
     p{
       line-height: 1.5;
     }

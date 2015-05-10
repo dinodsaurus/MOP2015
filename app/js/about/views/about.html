@@ -1,9 +1,12 @@
 <div class="guests">
   <div class="container">
-    <div class="top" sticky>
+    <div class="top" sticky sticky-class="active">
       <div class="line bgChange"></div>
       <h2>Organizatori</h2>
-      <a>Scroll down</a>
+      <div class="arrows">
+        <a class="first" ng-click="main.scrollTo('win')">Scroll down <span class="icon-arrow_down colorChange"></span></a>
+        <a class="second" ng-click="main.scrollTo(0)">Scroll up <span class="icon-arrow_up colorChange"></span></a>
+      </div>
     </div>
     <div class="about">
       <div class="text">

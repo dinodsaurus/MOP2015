@@ -1,5 +1,8 @@
 { "guests" : [
   {
+    "day": "",
+    "id": 0,
+    "guestNoShow": true,
     "name": "Radiona.org",
     "time": "13.00 - 20.00",
     "bio": "Electro-Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
@@ -19,6 +22,8 @@
     }
   },
   {
+    "day": "",
+    "id": 1,
     "name": "MOP Kinoteka",
     "time": "13.00 - 20.00",
     "guestNoShow": true,
@@ -48,7 +53,10 @@
     }
   },
   {
+    "day": "",
+    "id": 2,
     "name": "Studenti UNIN",
+    "guestNoShow": true,
     "time": "13.00 - 20.00",
     "links": [
       {
@@ -62,7 +70,10 @@
     }
   },
   {
+    "day": "",
+    "id": 3,
     "name": "Square Cube",
+    "guestNoShow": true,
     "time": "13.00 - 20.00",
     "img": "cube.png",
     "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
@@ -72,6 +83,8 @@
     }
   },
   {
+    "day": "",
+    "id": 4,
     "name": "Ivan Malenica",
     "time": "13.00 - 15.00",
     "img": "ivan_malenica_img.png",
@@ -88,6 +101,8 @@
     }
   },
   {
+    "day": "",
+    "id": 5,
     "name": "Dario Belić",
     "time": "15.00 - 17.00",
     "img": "dario_belic_img.png",
@@ -112,6 +127,8 @@
     }
   },
   {
+    "day": "",
+    "id": 6,
     "name": "Iva Oborovac",
     "time": "17.00 - 18.30",
     "img": "iva_obrovac_img.png",
@@ -132,6 +149,8 @@
     }
   },
   {
+    "day": "",
+    "id": 7,
     "name": "MOP",
     "guestNoShow": true,
     "time": "19.30 - 20.30",
@@ -140,6 +159,8 @@
     }
   },
   {
+    "day": "",
+    "id": 8,
     "name": "Bar Lavra",
     "guestNoShow": true,
     "time": "21.30 - 02.00",
@@ -157,14 +178,20 @@
 ],
 "guests2": [
   {
+    "day": 2,
+    "id": 0,
     "name": "Mihael Mikolšić",
     "img": "mihael_miklosic_img.png"
   },
   {
+    "day": 2,
+    "id": 0,
     "name": "Luka Marčec",
     "img": "luka_marcec_img.png"
   },
   {
+    "day": 2,
+    "id": 0,
     "name": "Mihael Mikolšić, Luka Marčec",
     "time": "10.00 - 11.00",
     "guestNoShow": true,
@@ -196,6 +223,21 @@
     }
   },
   {
+    "day": 2,
+    "id": 10,
+    "name": "Jakov Košćak",
+    "time": "11.00 - 12.00",
+    "bigDesc": true,
+    "img": "jakov_koscak_img.png",
+    "bio": "Jakov Košćak dolazi iz Varaždina, gdje je završio studij Multimedije, oblikovanja i primjene na Sveučilištu Sjever. Radi kao digitalni dizajner u agenciji 404.",
+    "workshop": {
+      "name": "Praksom do posla",
+      "description": "Jakov će govoriti o tome kako  kroz praksu naučiti znanje potrebeno za daljni razvoj I rad. U sklopu infomativnog predavanja svim  studentima multimedijskog usmjerenja otvorena je opcija osobnog predstavljanja uz mogućnost odlaska na praksu  u agenciju 404."
+    }
+  },
+  {
+    "day": 2,
+    "id": 1,
     "name": "Radiona.org",
     "time": "13.00 - 20.00",
     "same": true,
@@ -216,6 +258,8 @@
     }
   },
   {
+    "day": 2,
+    "id": 2,
     "name": "MOP Kinoteka",
     "time": "13.00 - 20.00",
     "same": true,
@@ -245,6 +289,8 @@
     }
   },
   {
+    "day": 2,
+    "id": 3,
     "name": "Studenti UNIN",
     "time": "13.00 - 20.00",
     "same": true,
@@ -260,6 +306,8 @@
     }
   },
   {
+    "day": 2,
+    "id": 4,
     "name": "Square Cube",
     "time": "13.00 - 20.00",
     "same": true,
@@ -271,6 +319,8 @@
     }
   },
   {
+    "day": 2,
+    "id": 5,
     "name": "Hrvoje Šimić",
     "time": "13.00 - 15.00",
     "img": "hrvoje_simic_img.png",
@@ -300,7 +350,9 @@
     }
   },
   {
-    "name": "Andro Rezić - Broj42",
+    "day": 2,
+    "id": 6,
+    "name": "Andro Rezić",
     "time": "15.00 - 16.00",
     "img": "andro_rezic_img.png",
     "bio": "Osim što radi kao Python i Django developer, zanima ga razvoj obuhvatnih softverskih rješenja te posebice pozadinskih sustava. Kao alumni Fakulteta Elektrotehnike i Računarstva, još uvijek je aktivan u njegovoj tehnološkoj i kulturnoj zajednici. Trenutno radi kao Web Developer u studiju Broj 42.",
@@ -320,7 +372,9 @@
     }
   },
   {
-    "name": "Darko Čengija - UX passion",
+    "day": 2,
+    "id": 7,
+    "name": "Darko Čengija",
     "time": "16.00 - 17.00",
     "img": "darko_cengija_img.png",
     "bio": "Darko radi kao Usability specialist i Information Architect/Interaction Designer u UX Passionu. U svom portfoliu ima niz različitih projekata od mobilnih i desktop aplikacija do web aplikacija i web siteova. Sami projekti se razlikuju po svojoj veličini od višemjesečnih za Hrvatski Telekom, RealNetworks, Vodafone... o projekata od nekoliko tjedana. Tijekom posljednje dvije godien posebno je rastao interes klijenata za usability projektima koji uključuju direktan rad i testiranja s korisnicima. Prije osnivanja UX Passiona 2009. godine i ulaska u UX, Darkov fokus je bio soft-skills i Neurolingvističko programiranje.",
@@ -340,7 +394,9 @@
     }
   },
   {
-    "name": "Dino Trojak - COBE",
+    "day": 2,
+    "id": 8,
+    "name": "Dino Trojak",
     "time": "17.00 - 18.30",
     "img": "dino_trojak_img.png",
     "links": [
@@ -367,7 +423,9 @@
     }
   },
   {
-    "name": "Tomislav Car - Infinum",
+    "day": 2,
+    "id": 9,
+    "name": "Tomislav Car",
     "time": "19.00 - 20.00",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "links": [
@@ -401,7 +459,9 @@
 ],
 "guests3": [
   {
-    "name": "Igor Šćuric - Poster",
+    "day": 3,
+    "id": 0,
+    "name": "Igor Šćuric",
     "time": "10.00 - 11.30",
     "bigDesc": true,
     "img": "Igor_Scuric_img.png",
@@ -418,7 +478,9 @@
     }
   },
   {
-    "name": "Aleksandar Ribar - Poster",
+    "day": 3,
+    "id": 1,
+    "name": "Aleksandar Ribar",
     "img": "Aleksandar_Ribar_img.png",
     "bigDesc": true,
     "time": "11.30 - 12.30",
@@ -435,6 +497,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 2,
     "name": "Radiona.org",
     "time": "13.00 - 20.00",
     "same": true,
@@ -455,6 +519,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 3,
     "name": "MOP Kinoteka",
     "time": "13.00 - 20.00",
     "same": true,
@@ -484,6 +550,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 4,
     "name": "Studenti UNIN",
     "time": "13.00 - 20.00",
     "same": true,
@@ -499,6 +567,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 5,
     "name": "Square Cube",
     "time": "13.00 - 20.00",
     "same": true,
@@ -510,6 +580,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 6,
     "name": "Mario Janković",
     "time": "13.00 - 14.30",
     "img": "mario_jankovic_img.png",
@@ -530,6 +602,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 7,
     "name": "Bruno Blažinč",
     "time": "14.30 - 16.00",
     "bio": "Razvojni programer (developer) za ActionScript 3.0 (Adobe Flash) i Java programski jezik s iskustvom u projektima realnog sučelja i interaktivnosti na Internet mrežama, ekspert za 3D printanje (Ultimaker) i Arduino mikrokontrolere. Radi tehničku podršku i programiranje za mnoge hrvatske novomedijske umjetnike, muzejske i komercijalne projekte, te kulturna događanja u Hrvatskoj. Voditelj niza uspješnih radionica 3D printanja i Processinga u Zagrebu i Osijeku. Su-osnivač i član Upravnog vijeća Udruge za razvoj ‘uradi-sam’ kulture – Radiona.",
@@ -545,18 +619,25 @@
     }
   },
   {
+    "day": 3,
+    "id": 8,
     "name": "Vedran Klemens",
     "time": "16.00 - 18.00",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "klemens_img.png",
+    "bio": "Vedran Klemens radi kao freelance ilustrator i grafički dizajner nakon višegodišnjeg iskustva kao art direktor u reklamnoj agenciji. Rođen je 1978. godine u Sarajevu. Od 1997. živi i radi u Zagrebu. Diplomirao je grafički dizajn na Studiju dizajna pri arhitektonskom fakultetu u Zagrebu, te slikarstvo na Akademiji likovnih umjetnosti u Zagrebu.",
     "links": [
       {
-        "name": "Twitter",
-        "link": "https://twitter.com/dinodsaurus"
+        "name": "VedranKlemens.com",
+        "link": "http://www.vedranklemens.com/98585/about"
+      },
+      {
+        "name": "Beehance",
+        "link": "https://www.behance.net/klemens"
       }
     ],
     "workshop": {
-      "name": "3dprint",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "name": "Digitalna ilustracija",
+      "description": "Upoznavanje s ilustratorom i njegovim radom, demonstracija alata za digitalno crtanje i Q&A."
     }
   },
   {
@@ -565,14 +646,20 @@
     "guestNoShow": true
   },
   {
-    "name": "Mario Šestak - Degordian",
+    "day": 3,
+    "id": 9,
+    "name": "Mario Šestak",
     "img":  "mario_sestak_img.png"
   },
   {
-    "name": "Marko Cvijetić - Degordian",
+    "day": 3,
+    "id": 9,
+    "name": "Marko Cvijetić",
     "img": "marko_cvijetic.png"
   },
   {
+    "day": 3,
+    "id": 9,
     "name": "Degordian",
     "time": "19.00 - 19.20",
     "bio": "Degordian je full service digitalna agencija s uredima u Zagrebu, Mostaru, Beogradu i Beču, s preko 100 ljudi. Ono što ih razlikuje od drugih agencija je spajanje performance marketinga i kreative koja mjerljivo ispunjava ciljeve klijenata. Dobitnici su nekoliko međunarodnih nagrada za digitalni dizajn i inovativno korištenje digitalnih tehnologija.",
@@ -605,14 +692,19 @@
     }
   },
   {
-    "name": "Ante Matijaca - Unity",
+    "day": 3,
+    "id": 10,
+    "name": "Ante Matijaca",
     "img":  "ante_matijaca_img.png"
   },
   {
-    "name": "Jakov Šuran - Unity",
+    "day": 3,
+    "id": 10,
+    "name": "Jakov Šuran",
     "img": "jakov_suran_img.png"
   },
   {
+    "id": 10,
     "name": "Unity",
     "time": "19.20 - 19.40",
     "guestNoShow": true,
@@ -646,14 +738,20 @@
     "time": "19.40 - 20.00"
   },
   {
-    "name": "Andrej Radišić - Five",
+    "day": 3,
+    "id": 11,
+    "name": "Andrej Radišić",
     "img":  "andrej_radisic.png"
   },
   {
-    "name": "Marko Stupić - Five",
+    "day": 3,
+    "id": 11,
+    "name": "Marko Stupić",
     "img": "marko_stupic_img.png"
   },
   {
+    "day": 3,
+    "id": 11,
     "name": "Five",
     "time": "20.00 - 20.20",
     "guestNoShow": true,
@@ -669,14 +767,19 @@
     }
   },
   {
-    "name": "Darko Škulj - Infinum",
+    "day": 3,
+    "id": 12,
+    "name": "Darko Škulj",
     "img":  "darko_skulj_img.png"
   },
   {
-    "name": "Elvis Mehmedović - Infinum",
+    "day": 3,
+    "id": 12,
+    "name": "Elvis Mehmedović",
     "img": "elvis_mehmedovic.png"
   },
   {
+    "id": 12,
     "name": "Infinum",
     "time": "20.20 - 20.40",
     "guestNoShow": true,
@@ -719,9 +822,11 @@
     "time": "22.00 - 04.00"
   },
   {
+    "day": 3,
+    "id": 13,
     "name": "FnF5",
     "time": "20.20 - 20.40",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "bio": "Projekt FnF5 temelji se na video izražaju te prostornim video instalacijama, a pokrenuli su ga članovi udruge Moving – Franjo Maltar i Nikola Martinis. Video instalacije koje izraduju baziraju se na povezivanju zasebnog elementa u jednu cjelinu. Svaki segment instalacije se naknadno iscrtava i osvjetljava projektorom (mapira), te se dobiva dinamičnost instalacije u odnosu na zvuk i prostor.",
     "links": [
       {
         "name": "Twitter",
@@ -734,6 +839,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 14,
     "name": "Chui",
     "time": "22.00 - 00.00",
     "img": "chui_img.png",
@@ -757,6 +864,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 15,
     "name": "Sir John",
     "time": "00.00 - 02.00",
     "img": "sir_john_img.png",
@@ -765,6 +874,8 @@
     }
   },
   {
+    "day": 3,
+    "id": 16,
     "name": "Kodin",
     "time": "02.00 - 04.00",
     "img": "kodin_img.png",

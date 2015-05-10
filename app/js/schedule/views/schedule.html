@@ -3,17 +3,20 @@
     <div class="container">
       <ul>
         <li class="colorChange">
-          Scroll down
+          <div class="arrows">
+            <a class="first" ng-click="main.scrollTo('win')">Scroll down <span class="icon-arrow_down colorChange"></span></a>
+            <a class="second" ng-click="main.scrollTo(0)">Scroll up <span class="icon-arrow_up colorChange"></span></a>
+          </div>
         </li>
-        <li class="colorChange" ng-click="schedule.switchDay()" ng-class="{active: schedule.activeDay === 1, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
+        <li class="colorChange" ng-click="schedule.switchDay()" ng-class="{active: schedule.activeDay == 1, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Četvrtak</h4>
           <p>Dan 1 - 21.05.</p>
         </li>
-        <li class="colorChange" ng-click="schedule.switchDay(2)" ng-class="{active: schedule.activeDay === 2, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
+        <li class="colorChange" ng-click="schedule.switchDay(2)" ng-class="{active: schedule.activeDay == 2, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Petak</h4>
           <p>Dan 2 - 22.05.</p>
         </li>
-        <li class="colorChange" ng-click="schedule.switchDay(3)" ng-class="{active: schedule.activeDay === 3, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
+        <li class="colorChange" ng-click="schedule.switchDay(3)" ng-class="{active: schedule.activeDay == 3, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Subota</h4>
           <p>Dan 3 - 23.05.</p>
         </li>
@@ -22,7 +25,7 @@
   </div>
   <div class="container">
     <div class="program">
-      <div class="pres group" ng-repeat="guest in schedule.guests" ng-if="guest.time" ng-click="guest.active = !guest.active" ng-class="{active: guest.active}">
+      <div class="pres group" id="guest{{guest.id}}" ng-repeat="guest in schedule.guests" ng-if="guest.time" ng-click="schedule.activateGuest(guest)" ng-class="{active: guest.active}">
         <div class="time">
           <p class="hidden">KADA I GDJE</p>
           <p class="vis colorChange">{{ guest.time }}</p>

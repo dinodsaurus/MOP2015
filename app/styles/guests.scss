@@ -12,6 +12,17 @@
     top:-115px;
     background: $codGray1;
     z-index:10;
+    overflow:hidden;
+    &.active{
+      .arrows{
+        .second{
+          bottom:30px;
+        }
+        .first{
+          bottom:-100px;
+        }
+      }
+    }
     .line{
       float:left;
       width: 75px;
@@ -28,11 +39,28 @@
       color: $dorado;
       text-transform:uppercase;
     }
-    a{
+    .arrows{
+      width: 205px;
+      height: 115px;
+      position:relative;
       float:right;
       color: $dorado;
-      margin-right:50px;
-      margin-top:80px;
+      .second{
+        bottom:120%;
+      }
+      .first{
+        bottom:30px;
+      }
+      a{
+        position:absolute;
+        right:50px;
+        transition:bottom .4s;
+      }
+      span{
+        font-size:50px;
+        color:$green;
+        margin-left:20px;
+      }
     }
   }
   .list{

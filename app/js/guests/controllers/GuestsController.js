@@ -4,6 +4,7 @@ angular.module("mopfest2015")
 .controller("GuestsController", function ($scope, GuestService) {
   var self = this;
   self.guests = [];
+
   $scope.$emit("switchLink", {"nav": "third", "text": "Gosti"});
   GuestService.getGuests().then(data => {
     data.guests.forEach(guest => {

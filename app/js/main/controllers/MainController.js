@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module("mopfest2015")
-.controller("MainController", function (localStorageService, $window, $scope) {
+.controller("MainController", function (localStorageService, $window, $scope, $document) {
   var self = this;
   self.headText = "Digital world<br/> in focus";
   self.color = localStorageService.get("color") || "green";
@@ -20,6 +20,14 @@ angular.module("mopfest2015")
     self.currentActive = active;
     self.menuHover = active;
   };
+  this.scrollTo = function (num) {
+    var h = num;
+    if(num === "win"){
+      h = $window.innerHeight - 115;
+    }
+    console.log(h);
+    $document.scrollTop(h, 300);
+ };
   $scope.$on("switchLink", function (ev, attr) {
     self.headText = attr.text;
     self.currentActive = attr.nav;

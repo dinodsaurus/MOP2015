@@ -25,6 +25,7 @@
         padding:30px;
         transition: background .3s;
         cursor:pointer;
+        color:$green;
         &.active{
           color:#1A1A1A!important;
           background:$green;
@@ -47,28 +48,32 @@
     }
   }
   .program{
+    position:relative;
     padding-top:100px;
     .pres{
+      position:relative;
+      left:0%;
       width: 100%;
       border-top:1px solid $mineShaft;
       border-bottom:1px solid $mineShaft;
       cursor:pointer;
       margin-bottom:0;
-      margin-left:0;
       &.ng-move,
       &.ng-enter,
       &.ng-leave {
-        transition:margin 0.4s;
+        transition:left 0.4s;
       }
-      &.ng-leave,
+      &.ng-leave{
+        display:none;
+      }
       &.ng-leave.ng-leave-active{
-        margin-left:-100%;
+        display:none;
       }
       &.ng-enter {
-        margin-left:100%;
+        left:100%;
       }
       &.ng-enter.ng-enter-active {
-        margin-left:0%;
+        left:0%;
       }
       &.active{
         .hidden{
@@ -127,7 +132,7 @@
       }
       &>div{
         float:left;
-        width: 33.33%;
+        width: 25%;
         padding:20px 0;
       }
       .name{
@@ -136,7 +141,11 @@
         border-right:1px solid $mineShaft;
       }
       .theme{
+        width: 50%;
         padding:20px;
+        .vis{
+          line-height: 1.5;
+        }
       }
     }
   }

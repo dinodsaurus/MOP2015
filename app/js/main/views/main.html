@@ -22,31 +22,31 @@
     <div class="navigation bgChange" ng-class="{active: main.menu}">
       <div class="links">
         <div class="line" ng-class="main.menuHover"></div>
-        <ul>
-          <li ng-mouseenter="main.menuHover = 'first'" ng-mouseleave="main.menuHover = main.currentActive">
+        <ul ng-mouseleave="main.menuHover = main.currentActive">
+          <li ng-mouseenter="main.menuHover = 'first'">
             <a ui-sref="main.home" ng-click="main.switchLink('first')">Naslovna</a>
           </li>
-          <li ng-mouseenter="main.menuHover = 'second'" ng-mouseleave="main.menuHover = main.currentActive">
+          <li ng-mouseenter="main.menuHover = 'second'">
             <a ui-sref="main.schedule" ng-click="main.switchLink('second')">Program</a>
           </li>
-          <li ng-mouseenter="main.menuHover = 'third'" ng-mouseleave="main.menuHover = main.currentActive">
+          <li ng-mouseenter="main.menuHover = 'third'">
             <a ui-sref="main.guests" ng-click="main.switchLink('third')">Gosti</a>
           </li>
-          <li ng-mouseenter="main.menuHover = 'fourth'" ng-mouseleave="main.menuHover = main.currentActive">
+          <li ng-mouseenter="main.menuHover = 'fourth'">
             <a ui-sref="main.location" ng-click="main.switchLink('fourth')">Lokacija</a>
           </li>
-          <li ng-mouseenter="main.menuHover = 'fifth'" ng-mouseleave="main.menuHover = main.currentActive">
+          <li ng-mouseenter="main.menuHover = 'fifth'">
             <a ui-sref="main.partners" ng-click="main.switchLink('fifth')">Partneri</a>
           </li>
-          <li ng-mouseenter="main.menuHover = 'sixth'" ng-mouseleave="main.menuHover = main.currentActive">
+          <li ng-mouseenter="main.menuHover = 'sixth'">
             <a ui-sref="main.about" ng-click="main.switchLink('sixth')">Info</a>
           </li>
         </ul>
       </div>
     </div>
     <div class="text">
+      <div class="bck" ng-style="main.headImg"></div>
       <div class="container">
-        <div class="bck" ng-style="main.headImg"></div>
         <div class="headText">
           <h1 class="colorChange">{{ main.headText }}</h1>
           <h2 class="colorChange">MOP 04<br/> Festival multimedije<br/> 21.5. — 23.5.2015.</br> Varaždin</h2>
