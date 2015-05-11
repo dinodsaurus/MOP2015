@@ -444,6 +444,7 @@
     "id": 9,
     "name": "Tomislav Car",
     "time": "19.00 — 20.00",
+    "img": "tomislav_car.png",
     "links": [
       {
         "name": "Infinum",
@@ -458,7 +459,6 @@
     "name": "Bar Lavra",
     "time": "21.30 — 02.00",
     "guestNoShow": true,
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "links": [
       {
         "name": "Facebook",
@@ -467,8 +467,7 @@
     ],
     "type": "lavra",
     "workshop": {
-      "name": "Glazbena večer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "name": "Glazbena večer"
     }
   }
 ],
@@ -623,10 +622,11 @@
     "name": "Bruno Blažinč",
     "time": "14.30 — 16.00",
     "bigDesc": true,
+    "img": "bruno_img.png",
     "bio": "Razvojni programer (developer) za ActionScript 3.0 (Adobe Flash) i Java programski jezik s iskustvom u projektima realnog sučelja i interaktivnosti na Internet mrežama, ekspert za 3D printanje (Ultimaker) i Arduino mikrokontrolere. Radi tehničku podršku i programiranje za mnoge hrvatske novomedijske umjetnike, muzejske i komercijalne projekte, te kulturna događanja u Hrvatskoj. Voditelj niza uspješnih radionica 3D printanja i Processinga u Zagrebu i Osijeku. Su—osnivač i član Upravnog vijeća Udruge za razvoj ‘uradi—sam’ kulture – Radiona.",
     "workshop": {
       "name": "3d printanje - stvarnost ili fikcija?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "description": "Dvadeset i četvrto je stoljeće. Putujete u svemirskom brodu Enterprise i upravo ste otvorili svježe pivo a nemate čašu. Sve što trebate napraviti je izdati naredbu replikatoru i za 5 sekundi možete uživati u vašem najdražem piću. Ovako su prije 25 godina pisci znanstvene fantastike zamišljali daleku budućnost. No, djeliće te budućnosti možemo vidjeti već sada. Ako vas zanima trenutno stanje u industriji 3d printera, koje su mogućnosti kućnih naspram industrijskih 3d printera i kada ćete konačno moći sami isprintati svoju čašu za pivo"
     }
   },
   {
@@ -748,8 +748,7 @@
       "jakov_suran_img.png"
     ],
     "workshop": {
-      "name": "Eat, Sleep, Dribbble, Repeat",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "name": "Eat, Sleep, Dribbble, Repeat"
     }
   },
   {
