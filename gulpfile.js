@@ -33,6 +33,11 @@ gulp.task("partials", function () {
   .pipe(gulp.dest(".tmp/partials"));
 });
 
+gulp.task("audio", function () {
+  return gulp.src("app/audio/**/*")
+  .pipe(gulp.dest("dist/audio"));
+});
+
 gulp.task("constants", function () {
   var myConfig = require("./app/config.json");
   //export NODE_ENV=development
@@ -137,7 +142,7 @@ gulp.task("wiredep", function () {
     .pipe(gulp.dest("app"));
 });
 
- gulp.task("build", ["validate", "constants", "html", "images", "fonts", "extras"], function () {
+ gulp.task("build", ["validate", "constants", "html", "images", "fonts", "extras", "audio"], function () {
    return gulp.src("dist/**/*").pipe($.size({title: "build", gzip: true}));
  });
 
