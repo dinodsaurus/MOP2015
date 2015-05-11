@@ -122,7 +122,9 @@ a{
   }
   p{
     color:#373737;
-    margin-top:20px;
+    @include breakpoint(md) {
+      margin-top:20px;
+    }
     a{
       color:#373737;
       text-decoration:none;
