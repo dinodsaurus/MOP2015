@@ -15,7 +15,7 @@ gulp.task("styles", function () {
       onError: console.error.bind(console, "Sass error:")
     }))
     .pipe($.postcss([
-      require("autoprefixer-core")({browsers: ["last 1 version"]})
+      require("autoprefixer-core")({browsers: ["> 5%", "last 2 version"]})
     ]))
     .pipe(gulp.dest(".tmp/styles"));
 });
