@@ -25,10 +25,13 @@
   height: 3px;
   position: absolute;
   width: 1px;
-  animation: sound 0ms -800ms linear infinite alternate;
+  animation-name: soundbar;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-@keyframes sound {
+@keyframes soundbar {
     0% {
        opacity: .35;
         height: 3px;
