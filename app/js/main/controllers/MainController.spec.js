@@ -5,7 +5,7 @@ describe("Main Conttroller tests", function(){
 
   beforeEach(module("mopfest2015"));
 
-  describe("List of awesome things", function () {
+  describe("should test the main controller", function () {
     beforeEach(inject(function($rootScope, $controller) {
       scope = $rootScope.$new();
       controller = $controller("MainController", {
@@ -13,14 +13,8 @@ describe("Main Conttroller tests", function(){
       });
     }));
 
-    it("should define more than 5 awesome things", inject(function() {
-      expect(angular.isArray(scope.awesomeThings)).toBeTruthy();
-      expect(scope.awesomeThings.length > 5).toBeTruthy();
-    }));
-
-    it("should have rank defined ", inject(function() {
-      var rand = Math.floor((Math.random() * scope.awesomeThings.length));
-      expect(scope.awesomeThings[rand].rank).toBeDefined();
+    it("currentActive should not be defined", inject(function() {
+      expect(scope.currentActive).toBeFalsy();
     }));
   });
 });
