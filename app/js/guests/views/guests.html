@@ -9,7 +9,7 @@
       </div>
     </div>
     <ul class="list">
-      <a ui-sref="main.schedule({ day: guest.day, guest: guest.id })" ng-repeat="guest in guests.guests">
+      <a class="group" ui-sref="main.schedule({ day: guest.day, guest: guest.id })" ng-repeat="guest in guests.guests">
         <li>
           <div class="line bgChange"></div>
           <h3 class="hoverChange">{{guest.name}}</h3>

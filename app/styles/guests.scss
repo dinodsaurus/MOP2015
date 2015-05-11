@@ -64,11 +64,25 @@
     }
   }
   .list{
-    li{
+    a{
+      float:left;
       position:relative;
       float:left;
       width: 33.33%;
-      border: 1px solid $codGray;
+      height: 510px;
+      border-right: 1px solid $codGray;
+      border-top: 1px solid $codGray;
+      &:nth-child(1),&:nth-child(4),&:nth-child(7),&:nth-child(10),&:nth-child(13),&:nth-child(16),&:nth-child(19),&:nth-child(22),&:nth-child(25){
+        border-left: 1px solid $codGray;
+      }
+      &:nth-last-child(-n+3){
+        border-bottom:1px solid $codGray;
+      }
+    }
+    li{
+      position:relative;
+      float:left;
+      width: 100%;
       padding:50px;
       height: 510px;
       transition:background .3s;

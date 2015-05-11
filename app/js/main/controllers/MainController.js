@@ -4,10 +4,17 @@ angular.module("mopfest2015")
 .controller("MainController", function (localStorageService, $window, $scope, $document, SoundService) {
   var self = this;
   var oldImg;
+  self.sound = (localStorageService.get("sound")) ? true : false;
   self.headText = "Digital world<br/> in focus";
   self.color = localStorageService.get("color") || "green";
   self.currentActive = false;
+  this.toggleSound = function () {
+    self.sound = !self.sound;
+    SoundService.toggleSound(self.sound);
+
+  };
   this.toggleMenu = function () {
+    SoundService.playSound();
     self.menu = !self.menu;
   };
   this.changeColor = function (color) {
@@ -19,7 +26,6 @@ angular.module("mopfest2015")
     self.menu = false;
     self.currentActive = active;
     self.menuHover = active;
-    SoundService.playSound();
   };
   this.scrollTo = function (num) {
     var h = num;
@@ -28,7 +34,7 @@ angular.module("mopfest2015")
     }else if(num === "win0"){
       h = $window.innerHeight;
     }
-    $document.scrollTop(h, 300);
+    $document.scrollTop(h, 700);
  };
   $scope.$on("switchLink", function (ev, attr) {
     self.headText = attr.text;

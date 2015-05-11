@@ -21,6 +21,13 @@
             ng-class="{active: main.color === 'red'}"
             ></div>
     </div>
+    <div id="bars" ng-class="{active: main.menu}" ng-click="main.toggleSound()">
+      <div class="line" ng-if="!main.sound"></div>
+      <div class="bar bgChange"></div>
+      <div class="bar bgChange"></div>
+      <div class="bar bgChange"></div>
+      <div class="bar bgChange"></div>
+    </div>
     <div class="navigation bgChange" ng-class="{active: main.menu}">
       <div class="links">
         <div class="line" ng-class="main.menuHover"></div>

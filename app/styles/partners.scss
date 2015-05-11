@@ -44,6 +44,11 @@
         left: 0;
         right: 0;
         margin: auto;
+        opacity:.7;
+        transition:opacity .3s;
+        &:hover{
+          opacity:1;
+        }
       }
     }
     .second{
@@ -59,7 +64,7 @@
         min-height:50px;
         border-right: 1px solid $codGray;
         border-top: 1px solid $codGray;
-        &:nth-child(1),&:nth-child(5),&:nth-child(9){
+        &:nth-child(1),&:nth-child(5),&:nth-child(9),&:nth-child(13),&:nth-child(17),&:nth-child(21){
           border-left: 1px solid $codGray;
         }
         &:nth-last-child(-n+4){
@@ -78,6 +83,11 @@
           left: 0;
           right: 0;
           margin: auto;
+          opacity:.7;
+          transition:opacity .3s;
+          &:hover{
+            opacity:1;
+          }
         }
       }
     }
@@ -112,6 +122,11 @@
           left: 0;
           right: 0;
           margin: auto;
+          opacity:.7;
+          transition:opacity .3s;
+          &:hover{
+            opacity:1;
+          }
         }
       }
     }

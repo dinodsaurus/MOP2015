@@ -4,8 +4,8 @@
     "id": 0,
     "guestNoShow": true,
     "name": "Radiona.org",
-    "time": "13.00 - 20.00",
-    "bio": "Electro-Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
+    "time": "13.00 — 20.00",
+    "bio": "Electro—Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
     "links": [
       {
         "name": "Radiona.org",
@@ -17,17 +17,17 @@
       }
     ],
     "workshop": {
-      "name": "Izložba  Electro-Baroque",
-      "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio-instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
+      "name": "Izložba  Electro—Baroque",
+      "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio—instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
     }
   },
   {
     "day": "",
     "id": 1,
     "name": "MOP Kinoteka",
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
     "guestNoShow": true,
-    "bio": "Kinoteka je naziv programa unutar MOP festivala koji se fokusira na projekciju kratkih filmova iz područja multimedije, dizajna i (digitalne) umjetnosti. Zavirite u živote raz- nih kreativaca i pokušajte odgonetnuti zašto su se baš oni izdvojili iz mase.",
+    "bio": "Kinoteka je naziv programa unutar MOP festivala koji se fokusira na projekciju kratkih filmova iz područja multimedije, dizajna i (digitalne) umjetnosti. Zavirite u živote raz— nih kreativaca i pokušajte odgonetnuti zašto su se baš oni izdvojili iz mase.",
     "workshop": {
       "name": "Projekcije dokumentranih filmova",
       "descriptions": ["We Pop UP — 18:20",
@@ -56,8 +56,10 @@
     "day": "",
     "id": 2,
     "name": "Studenti UNIN",
+    "bio":"Katarina Ćurin, Petra Breber, Helena Hujber, Petra Bradić, Tajana Antonina",
     "guestNoShow": true,
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
+    "bigDesc": true,
     "links": [
       {
         "name": "Facebook",
@@ -74,9 +76,14 @@
     "id": 3,
     "name": "Square Cube",
     "guestNoShow": true,
-    "time": "13.00 - 20.00",
-    "img": "cube.png",
+    "time": "13.00 — 20.00",
     "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
+    "links": [
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/squarecubevz"
+      }
+    ],
     "workshop": {
       "name": "Instalacija u prostoru",
       "description": " Projekt Square cube zamišljen je kao instalacija koja će skrenuti pažnju na ljepotu svakodnevnih uličnih prizora, te potaknuti prolaznike da aktivno (ili pasivno) sudjeluju u realizaciji kao promatrači ili objekt promatranja i naposljetku i sami postanu dio projekta."
@@ -86,13 +93,13 @@
     "day": "",
     "id": 4,
     "name": "Ivan Malenica",
-    "time": "13.00 - 15.00",
+    "time": "13.00 — 15.00",
     "img": "ivan_malenica_img.png",
     "bio": "Ivan Malenica je bivši student Veleučilišta u Varaždinu. Tijekom studiranja je s nekoliko kolega producirao studentsku emisiju za Varaždinsku Televiziju, a nakon toga i video spotove tada neafirmiranim izvođačima. Trenutno radi kao montažer informativnog programa na jednoj od nacionalnih televizija gdje je stekao trogodišnje iskustvo.",
     "links": [
       {
         "name": "Linkedin",
-        "link": "https://www.linkedin.com/pub/ivan-malenica/48/828/4a1"
+        "link": "https://www.linkedin.com/pub/ivan—malenica/48/828/4a1"
       }
     ],
     "workshop": {
@@ -104,7 +111,7 @@
     "day": "",
     "id": 5,
     "name": "Dario Belić",
-    "time": "15.00 - 17.00",
+    "time": "15.00 — 17.00",
     "img": "dario_belic_img.png",
     "bio": "Freelance fotograf i snimatelj, student fotografije na Akademiji dramske umjetnosti u Zagrebu.",
     "links": [
@@ -130,7 +137,7 @@
     "day": "",
     "id": 6,
     "name": "Iva Oborovac",
-    "time": "17.00 - 18.30",
+    "time": "17.00 — 18.30",
     "img": "iva_obrovac_img.png",
     "bio": "Iva radi kao performance marketing specialist u agenciji 404, a od nedugo je i Google certificirani trener. Svakodnevno se bavi upravljanjem Google Adwords, Facebook i Linkedin kampanjama, pisanjem CPC strategija te analiziranjem i izvještavanjem prema podacima iz Google Analyticsa. Posebno voli ecommerce, remarketing i Youtube kampanje.",
     "links": [
@@ -153,7 +160,7 @@
     "id": 7,
     "name": "MOP",
     "guestNoShow": true,
-    "time": "19.30 - 20.30",
+    "time": "19.30 — 20.30",
     "workshop": {
       "name": "Službeno otvorenje festivala"
     }
@@ -163,7 +170,7 @@
     "id": 8,
     "name": "Bar Lavra",
     "guestNoShow": true,
-    "time": "21.30 - 02.00",
+    "time": "21.30 — 02.00",
     "type": "lavra",
     "links": [
       {
@@ -193,7 +200,7 @@
     "day": 2,
     "id": 0,
     "name": "Mihael Mikolšić, Luka Marčec",
-    "time": "10.00 - 11.00",
+    "time": "10.00 — 11.00",
     "guestNoShow": true,
     "imgs": [
       "luka_marcec_img.png",
@@ -218,16 +225,22 @@
       }
     ],
     "workshop": {
-      "name": "Things you should know about design school — before you apply",
-      "description": "Predavanje se bavi iskustvima studenata Medijskog dizajna na Sveučilištu Sje- ver. Mihael je trenutno na trećoj godini i kroz presjek svojih radova nastojat će učenicima približiti što to znači studiranje dizajna i koje bi stvari trebali znati prije nego odluče upisati ovakav studij. Luka je student prve godine, kroz izbor svojih radova nastojat će približiti proces priprema za prijemni ispit, a ispričat će i o svom iskustvu prakse u digitalnoj agenciji."
+      "name": "Things you should know about design school - before you apply",
+      "description": "Predavanje se bavi iskustvima studenata Medijskog dizajna na Sveučilištu Sje— ver. Mihael je trenutno na trećoj godini i kroz presjek svojih radova nastojat će učenicima približiti što to znači studiranje dizajna i koje bi stvari trebali znati prije nego odluče upisati ovakav studij. Luka je student prve godine, kroz izbor svojih radova nastojat će približiti proces priprema za prijemni ispit, a ispričat će i o svom iskustvu prakse u digitalnoj agenciji."
     }
   },
   {
     "day": 2,
     "id": 10,
     "name": "Jakov Košćak",
-    "time": "11.00 - 12.00",
+    "time": "11.00 — 12.00",
     "bigDesc": true,
+    "links":[
+      {
+        "name":"404 agency",
+        "link": "https://www.facebook.com/404.agency?fref=ts&__mref=message_bubble"
+      }
+    ],
     "img": "jakov_koscak_img.png",
     "bio": "Jakov Košćak dolazi iz Varaždina, gdje je završio studij Multimedije, oblikovanja i primjene na Sveučilištu Sjever. Radi kao digitalni dizajner u agenciji 404.",
     "workshop": {
@@ -239,9 +252,9 @@
     "day": 2,
     "id": 1,
     "name": "Radiona.org",
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Electro-Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
+    "bio": "Electro—Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
     "links": [
       {
         "name": "Radiona.org",
@@ -253,17 +266,17 @@
       }
     ],
     "workshop": {
-      "name": "Izložba  Electro-Baroque",
-      "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio-instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
+      "name": "Izložba  Electro—Baroque",
+      "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio—instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
     }
   },
   {
     "day": 2,
     "id": 2,
     "name": "MOP Kinoteka",
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Kinoteka je naziv programa unutar MOP festivala koji se fokusira na projekciju kratkih filmova iz područja multimedije, dizajna i (digitalne) umjetnosti. Zavirite u živote raz- nih kreativaca i pokušajte odgonetnuti zašto su se baš oni izdvojili iz mase.",
+    "bio": "Kinoteka je naziv programa unutar MOP festivala koji se fokusira na projekciju kratkih filmova iz područja multimedije, dizajna i (digitalne) umjetnosti. Zavirite u živote raz— nih kreativaca i pokušajte odgonetnuti zašto su se baš oni izdvojili iz mase.",
     "workshop": {
       "name": "Projekcije dokumentranih filmova",
       "descriptions": ["We Pop UP — 18:20",
@@ -292,8 +305,10 @@
     "day": 2,
     "id": 3,
     "name": "Studenti UNIN",
-    "time": "13.00 - 20.00",
-    "same": true,
+    "bio":"Katarina Ćurin, Petra Breber, Helena Hujber, Petra Bradić, Tajana Antonina",
+    "guestNoShow": true,
+    "time": "13.00 — 20.00",
+    "bigDesc": true,
     "links": [
       {
         "name": "Facebook",
@@ -309,9 +324,8 @@
     "day": 2,
     "id": 4,
     "name": "Square Cube",
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
     "same": true,
-    "img": "cube.png",
     "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
     "workshop": {
       "name": "Instalacija u prostoru",
@@ -322,9 +336,9 @@
     "day": 2,
     "id": 5,
     "name": "Hrvoje Šimić",
-    "time": "13.00 - 15.00",
+    "time": "13.00 — 15.00",
     "img": "hrvoje_simic_img.png",
-    "bio": "Hrvoje je full stack developer i open source entuzijast sa trenutnim afinitetom prema JavaScriptu, koji je na razne načine doprinjeo desecima open source projekata, među kojima je i popularni Ruby on Rails. Najpopularniji projekt koji je napravio u kučnoj radinosti je definitivno Livedown - alat za renderiranje Markdown formata iz vašeg omiljenog editora. U slobodno vrijeme voli deinstalirati zatvorene operacijske sustave i pokušavati ljudima objasniti sve prednosti i nedostatke prelaska na Vim - editor svih editora.",
+    "bio": "Hrvoje je full stack developer i open source entuzijast sa trenutnim afinitetom prema JavaScriptu, koji je na razne načine doprinjeo desecima open source projekata, među kojima je i popularni Ruby on Rails. Najpopularniji projekt koji je napravio u kučnoj radinosti je definitivno Livedown — alat za renderiranje Markdown formata iz vašeg omiljenog editora. U slobodno vrijeme voli deinstalirati zatvorene operacijske sustave i pokušavati ljudima objasniti sve prednosti i nedostatke prelaska na Vim — editor svih editora.",
     "bigDesc": true,
     "links": [
       {
@@ -353,7 +367,7 @@
     "day": 2,
     "id": 6,
     "name": "Andro Rezić",
-    "time": "15.00 - 16.00",
+    "time": "15.00 — 16.00",
     "img": "andro_rezic_img.png",
     "bio": "Osim što radi kao Python i Django developer, zanima ga razvoj obuhvatnih softverskih rješenja te posebice pozadinskih sustava. Kao alumni Fakulteta Elektrotehnike i Računarstva, još uvijek je aktivan u njegovoj tehnološkoj i kulturnoj zajednici. Trenutno radi kao Web Developer u studiju Broj 42.",
     "links": [
@@ -374,10 +388,11 @@
   {
     "day": 2,
     "id": 7,
+    "bigDesc": true,
     "name": "Darko Čengija",
-    "time": "16.00 - 17.00",
+    "time": "16.00 — 17.00",
     "img": "darko_cengija_img.png",
-    "bio": "Darko radi kao Usability specialist i Information Architect/Interaction Designer u UX Passionu. U svom portfoliu ima niz različitih projekata od mobilnih i desktop aplikacija do web aplikacija i web siteova. Sami projekti se razlikuju po svojoj veličini od višemjesečnih za Hrvatski Telekom, RealNetworks, Vodafone... o projekata od nekoliko tjedana. Tijekom posljednje dvije godien posebno je rastao interes klijenata za usability projektima koji uključuju direktan rad i testiranja s korisnicima. Prije osnivanja UX Passiona 2009. godine i ulaska u UX, Darkov fokus je bio soft-skills i Neurolingvističko programiranje.",
+    "bio": "Darko radi kao Usability specialist i Information Architect/Interaction Designer u UX Passionu. U svom portfoliu ima niz različitih projekata od mobilnih i desktop aplikacija do web aplikacija i web siteova. Prije osnivanja UX Passiona 2009. godine i ulaska u UX, Darkov fokus je bio soft—skills i Neurolingvističko programiranje.",
     "links": [
       {
         "name": "Uxpassion.com",
@@ -397,8 +412,10 @@
     "day": 2,
     "id": 8,
     "name": "Dino Trojak",
-    "time": "17.00 - 18.30",
+    "time": "17.00 — 18.30",
     "img": "dino_trojak_img.png",
+    "bigDesc": true,
+    "bio": "Dino je web developer koji voli isprobavat nove tehnologije i tehnike razvijanja web aplikacija. Jezik koji najčešće koristi je JavaScript. Opsjednut je sa standardizacijom i optimizacijom programerskih zadaća.",
     "links": [
       {
         "name": "Dinodsaur.us",
@@ -419,35 +436,33 @@
     ],
     "workshop": {
       "name": "Automatizirano testiranje JavaScript aplikacija",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "description": "Svrha ove radionice je prikazati bolji i skalabilniji pristup razvoju web aplikacija. Kako bi to postigli poslužit čemo se unit i e2e testovima. Uz živi primjer proći ćemo kroz postavljanje automatiziranog sustava za testiranje. Alati koje ćamo koristiti su Jasmine, Karma, Protractor i Gulp."
     }
   },
   {
     "day": 2,
     "id": 9,
     "name": "Tomislav Car",
-    "time": "19.00 - 20.00",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "time": "19.00 — 20.00",
     "links": [
       {
-        "name": "Twitter",
-        "link": "https://twitter.com/dinodsaurus"
+        "name": "Infinum",
+        "link": "https://www.infinum.co/"
       }
     ],
     "workshop": {
-      "name": "Infinum co.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "name": "Infinum co."
     }
   },
   {
     "name": "Bar Lavra",
-    "time": "21.30 - 02.00",
+    "time": "21.30 — 02.00",
     "guestNoShow": true,
     "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "links": [
       {
-        "name": "Twitter",
-        "link": "https://twitter.com/dinodsaurus"
+        "name": "Facebook",
+        "link": "https://www.facebook.com/pages/Lavra/376210809123671"
       }
     ],
     "type": "lavra",
@@ -462,7 +477,7 @@
     "day": 3,
     "id": 0,
     "name": "Igor Šćuric",
-    "time": "10.00 - 11.30",
+    "time": "10.00 — 11.30",
     "bigDesc": true,
     "img": "Igor_Scuric_img.png",
     "bio": "Igor je rođen 1985. godine u Zagrebu i završio je dizajn vizualnih komunikacija na Tehničkom veleučilištu. On razmišlja u layerima After effectsa i ljubitelj je poezije koju piše u Illustratoru. U svakom projektu pronađe ono nešto i podijeli to sa svijetom kroz animaciju. Gastronomski je znalac   a specijalnost su mu pljeskavice i ćevapi. Vozi bicikl na prednjem kotaču.",
@@ -473,8 +488,8 @@
       }
     ],
     "workshop": {
-      "name": "Motion graphics - Adobe After Effects",
-      "description": "Prvi dio radionice pokrit će osnove animacije u Adobe After Effects-ima. Prezentirat ćemo cijeli proces od postavljanja projekta preko jednostavnog animiranja i korištenja expressions-a."
+      "name": "Motion graphics — Adobe After Effects",
+      "description": "Prvi dio radionice pokrit će osnove animacije u Adobe After Effects—ima. Prezentirat ćemo cijeli proces od postavljanja projekta preko jednostavnog animiranja i korištenja expressions—a."
     }
   },
   {
@@ -483,8 +498,8 @@
     "name": "Aleksandar Ribar",
     "img": "Aleksandar_Ribar_img.png",
     "bigDesc": true,
-    "time": "11.30 - 12.30",
-    "bio": "Aleksandar je rođen 1989. u Ludbregu i završio je Multimediju na Veleučilištu u Varaždinu. Još kao dijete radio je 3D makete. Danas se služi samo teškim alatima kojima vješto barata na tri kompijutera i devet monitora istovremeno. Poznat je po tome da nemoguće projekte rješava odmah a za čuda mu je potreban koji dan.  Zaljubljenik je u fotografiju a na posao dolazi sa skate-om.",
+    "time": "11.30 — 12.30",
+    "bio": "Aleksandar je rođen 1989. u Ludbregu i završio je Multimediju na Veleučilištu u Varaždinu. Još kao dijete radio je 3D makete. Danas se služi samo teškim alatima kojima vješto barata na tri kompijutera i devet monitora istovremeno. Poznat je po tome da nemoguće projekte rješava odmah a za čuda mu je potreban koji dan.  Zaljubljenik je u fotografiju a na posao dolazi sa skate—om.",
     "links": [
       {
         "name": "Poster.hr",
@@ -493,16 +508,16 @@
     ],
     "workshop": {
       "name": "Keying and compositing - Nuke",
-      "description": "Drugi dio prezentacije odnosit će se na proces keyinga i compositinga u Nuke-u, pokazat ćemo osnove Nuke compositinga i ubacivanje 3D elemenata u snimljeni video materijal."
+      "description": "Drugi dio prezentacije odnosit će se na proces keyinga i compositinga u Nuke—u, pokazat ćemo osnove Nuke compositinga i ubacivanje 3D elemenata u snimljeni video materijal."
     }
   },
   {
     "day": 3,
     "id": 2,
     "name": "Radiona.org",
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Electro-Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
+    "bio": "Electro—Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
     "links": [
       {
         "name": "Radiona.org",
@@ -514,17 +529,17 @@
       }
     ],
     "workshop": {
-      "name": "Izložba  Electro-Baroque",
-      "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio-instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
+      "name": "Izložba  Electro—Baroque",
+      "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio—instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
     }
   },
   {
     "day": 3,
     "id": 3,
     "name": "MOP Kinoteka",
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Kinoteka je naziv programa unutar MOP festivala koji se fokusira na projekciju kratkih filmova iz područja multimedije, dizajna i (digitalne) umjetnosti. Zavirite u živote raz- nih kreativaca i pokušajte odgonetnuti zašto su se baš oni izdvojili iz mase.",
+    "bio": "Kinoteka je naziv programa unutar MOP festivala koji se fokusira na projekciju kratkih filmova iz područja multimedije, dizajna i (digitalne) umjetnosti. Zavirite u živote raz— nih kreativaca i pokušajte odgonetnuti zašto su se baš oni izdvojili iz mase.",
     "workshop": {
       "name": "Projekcije dokumentranih filmova",
       "descriptions": ["We Pop UP — 18:20",
@@ -553,8 +568,10 @@
     "day": 3,
     "id": 4,
     "name": "Studenti UNIN",
-    "time": "13.00 - 20.00",
-    "same": true,
+    "bio":"Katarina Ćurin, Petra Breber, Helena Hujber, Petra Bradić, Tajana Antonina",
+    "guestNoShow": true,
+    "time": "13.00 — 20.00",
+    "bigDesc": true,
     "links": [
       {
         "name": "Facebook",
@@ -570,9 +587,8 @@
     "day": 3,
     "id": 5,
     "name": "Square Cube",
-    "time": "13.00 - 20.00",
+    "time": "13.00 — 20.00",
     "same": true,
-    "img": "cube.png",
     "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
     "workshop": {
       "name": "Instalacija u prostoru",
@@ -583,9 +599,9 @@
     "day": 3,
     "id": 6,
     "name": "Mario Janković",
-    "time": "13.00 - 14.30",
+    "time": "13.00 — 14.30",
     "img": "mario_jankovic_img.png",
-    "bio": "Front-end developer s naglaskom na moderne web tehnologije i semantiku. HTML entuzijast koji zagovara dizajniranje i oblikovanje stranica u browser koje ostavljaju trag. Trči, a u slobodno vrijeme radi i drži vježbe na dva fakulteta.",
+    "bio": "Front—end developer s naglaskom na moderne web tehnologije i semantiku. HTML entuzijast koji zagovara dizajniranje i oblikovanje stranica u browser koje ostavljaju trag. Trči, a u slobodno vrijeme radi i drži vježbe na dva fakulteta.",
     "links": [
       {
         "name": "20interactive",
@@ -605,16 +621,11 @@
     "day": 3,
     "id": 7,
     "name": "Bruno Blažinč",
-    "time": "14.30 - 16.00",
-    "bio": "Razvojni programer (developer) za ActionScript 3.0 (Adobe Flash) i Java programski jezik s iskustvom u projektima realnog sučelja i interaktivnosti na Internet mrežama, ekspert za 3D printanje (Ultimaker) i Arduino mikrokontrolere. Radi tehničku podršku i programiranje za mnoge hrvatske novomedijske umjetnike, muzejske i komercijalne projekte, te kulturna događanja u Hrvatskoj. Voditelj niza uspješnih radionica 3D printanja i Processinga u Zagrebu i Osijeku. Su-osnivač i član Upravnog vijeća Udruge za razvoj ‘uradi-sam’ kulture – Radiona.",
-    "links": [
-      {
-        "name": "Twitter",
-        "link": "https://twitter.com/dinodsaurus"
-      }
-    ],
+    "time": "14.30 — 16.00",
+    "bigDesc": true,
+    "bio": "Razvojni programer (developer) za ActionScript 3.0 (Adobe Flash) i Java programski jezik s iskustvom u projektima realnog sučelja i interaktivnosti na Internet mrežama, ekspert za 3D printanje (Ultimaker) i Arduino mikrokontrolere. Radi tehničku podršku i programiranje za mnoge hrvatske novomedijske umjetnike, muzejske i komercijalne projekte, te kulturna događanja u Hrvatskoj. Voditelj niza uspješnih radionica 3D printanja i Processinga u Zagrebu i Osijeku. Su—osnivač i član Upravnog vijeća Udruge za razvoj ‘uradi—sam’ kulture – Radiona.",
     "workshop": {
-      "name": "3dprint",
+      "name": "3d printanje - stvarnost ili fikcija?",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   },
@@ -622,7 +633,7 @@
     "day": 3,
     "id": 8,
     "name": "Vedran Klemens",
-    "time": "16.00 - 18.00",
+    "time": "16.00 — 18.00",
     "img": "klemens_img.png",
     "bio": "Vedran Klemens radi kao freelance ilustrator i grafički dizajner nakon višegodišnjeg iskustva kao art direktor u reklamnoj agenciji. Rođen je 1978. godine u Sarajevu. Od 1997. živi i radi u Zagrebu. Diplomirao je grafički dizajn na Studiju dizajna pri arhitektonskom fakultetu u Zagrebu, te slikarstvo na Akademiji likovnih umjetnosti u Zagrebu.",
     "links": [
@@ -642,8 +653,17 @@
   },
   {
     "name": "Dribble meetup",
-    "time": "18.30 - 21.30",
-    "guestNoShow": true
+    "time": "18.30 — 21.30",
+    "guestNoShow": true,
+    "links": [
+      {
+        "name":"Dribble",
+        "link": "https://nvite.com/MopDribbble/ce47"
+      }
+    ],
+    "workshop":{
+      "description": "Prvi hrvatski Dribbble MeetUp #MopDribbble u organizaciji udruge MOP održat će se u subotu 23. svibnja u 18:30 sati u sklopu MOP 04 Festivala multimedije u Varaždinu (Palača Herzer - Franjevački Trg 6). Meetup je fokusiran na digitalno stvaralaštvo i metode rada ponajboljih hrvatskih digitalnih dizajnera. Meetup će se odvijati u opuštenom dribbble stilu, a kroz predavanja koja će trajati po 20 minuta, predstaviti će se Andrej Radišić i Marko Stupić (Five), Marko Cvijetić i Mario Šestak (Degordian), Darko Škulj i Elvis Mehmedović (Infinum), Ante Matijaca i Jakov Šuran (Unity)."
+    }
   },
   {
     "day": 3,
@@ -661,7 +681,7 @@
     "day": 3,
     "id": 9,
     "name": "Degordian",
-    "time": "19.00 - 19.20",
+    "time": "19.00 — 19.20",
     "bio": "Degordian je full service digitalna agencija s uredima u Zagrebu, Mostaru, Beogradu i Beču, s preko 100 ljudi. Ono što ih razlikuje od drugih agencija je spajanje performance marketinga i kreative koja mjerljivo ispunjava ciljeve klijenata. Dobitnici su nekoliko međunarodnih nagrada za digitalni dizajn i inovativno korištenje digitalnih tehnologija.",
     "guestNoShow": true,
     "imgs": [
@@ -706,7 +726,7 @@
   {
     "id": 10,
     "name": "Unity",
-    "time": "19.20 - 19.40",
+    "time": "19.20 — 19.40",
     "guestNoShow": true,
     "bio": "Unity je tim koji se bavi kreiranjem interaktivnih proizvoda (mobile/web/whatever) i eksperimentiranjem na području dizajna. Kad ne rade za klijente, razvijaju vlastite koncepte i proizvode.",
     "links": [
@@ -733,11 +753,6 @@
     }
   },
   {
-    "name": "Dribbble quiz",
-    "guestNoShow": true,
-    "time": "19.40 - 20.00"
-  },
-  {
     "day": 3,
     "id": 11,
     "name": "Andrej Radišić",
@@ -753,7 +768,7 @@
     "day": 3,
     "id": 11,
     "name": "Five",
-    "time": "20.00 - 20.20",
+    "time": "20.00 — 20.20",
     "guestNoShow": true,
     "bigDesc": true,
     "imgs": [
@@ -763,7 +778,7 @@
     "bio": "Five je agencija za mobile software development s fokusom na design. Započela je s radom prije sedam godina. Trenutno ima urede u Zagrebu, New Yorku i Osijeku i zapošljava više od 80 ljudi. Orijentirana je prema globalnom tržištu i pokušava se istaknuti kvalitetom svog rada. ",
     "workshop": {
       "name": "Training First",
-      "description": "Screen design je realativno novo područje dizajna i jako se brzo razvija. Iz tog razloga prvi dio predavanja pokrit će teme kako učiti i djeliti znanje u timu te na koji način poboljšati svoje dizajnerske vještine. U drugom dijelu Marko Stupić će predstaviti svoj projekt Icon a day (http://icon-a-day.com/), i objasniti kolika je bitna požrtvovnost da bi se razvijali i istaknuli u community-u kao što je dribbble."
+      "description": "Screen design je realativno novo područje dizajna i jako se brzo razvija. Iz tog razloga prvi dio predavanja pokrit će teme kako učiti i djeliti znanje u timu te na koji način poboljšati svoje dizajnerske vještine. U drugom dijelu Marko Stupić će predstaviti svoj projekt Icon a day (http://icon—a—day.com/), i objasniti kolika je bitna požrtvovnost da bi se razvijali i istaknuli u community—u kao što je dribbble."
     }
   },
   {
@@ -781,10 +796,10 @@
   {
     "id": 12,
     "name": "Infinum",
-    "time": "20.20 - 20.40",
+    "time": "20.20 — 20.40",
     "guestNoShow": true,
     "bigDesc": true,
-    "bio": "Infinum je tvrtka specijalizirana za dizajn i razvoj mobilnih i web aplikacija. Nudimo podršku u svim fazama razvoja softverskih rješenja - razvoj kreativnog koncepta, planiranje, UX i UI dizajn, programiranje, testiranje, publiciranje i podrška. Naši klijenti se kreću od velikih i etabliranih kompanija, preko startupova koji tek nastaju pa do partnerskih agencija. Imamo 65 ljudi, poslujemo kroz 3 ureda i radimo to već 10 godina.",
+    "bio": "Infinum je tvrtka specijalizirana za dizajn i razvoj mobilnih i web aplikacija. Nudimo podršku u svim fazama razvoja softverskih rješenja — razvoj kreativnog koncepta, planiranje, UX i UI dizajn, programiranje, testiranje, publiciranje i podrška. Naši klijenti se kreću od velikih i etabliranih kompanija, preko startupova koji tek nastaju pa do partnerskih agencija. Imamo 65 ljudi, poslujemo kroz 3 ureda i radimo to već 10 godina.",
     "imgs": [
       "darko_skulj_img.png",
       "elvis_mehmedovic.png"
@@ -817,34 +832,30 @@
     }
   },
   {
-    "name": "PARTY - TVRĐAVA STARI GRAD",
+    "name": "PARTY — TVRĐAVA STARI GRAD",
     "guestNoShow": true,
-    "time": "22.00 - 04.00"
+    "time": "22.00 — 04.00"
   },
   {
     "day": 3,
     "id": 13,
+    "bigDesc": true,
+    "guestNoShow": true,
     "name": "FnF5",
-    "time": "20.20 - 20.40",
-    "bio": "Projekt FnF5 temelji se na video izražaju te prostornim video instalacijama, a pokrenuli su ga članovi udruge Moving – Franjo Maltar i Nikola Martinis. Video instalacije koje izraduju baziraju se na povezivanju zasebnog elementa u jednu cjelinu. Svaki segment instalacije se naknadno iscrtava i osvjetljava projektorom (mapira), te se dobiva dinamičnost instalacije u odnosu na zvuk i prostor.",
-    "links": [
-      {
-        "name": "Twitter",
-        "link": "https://twitter.com/dinodsaurus"
-      }
-    ],
+    "time": "20.20 — 20.40",
+    "bio": "U prvih 6 godina udruga je organizirala 40-ak koncerata na kojima su predstavljeni muzičari nama sličnih pogleda na elektronsku glazbu. Video instalacije, set dizajn i radionice realizirani u sklopu evenata bili su logičan korak s obzirom na interese članova, a realizacijom su postali konstantni element uz glazbu.",
     "workshop": {
       "name": "3D maping instalacija",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "description": "Projekt FnF5 temelji se na video izražaju te prostornim video instalacijama, a pokrenuli su ga članovi udruge Moving – Franjo Maltar i Nikola Martinis. Video instalacije koje izraduju baziraju se na povezivanju zasebnog elementa u jednu cjelinu. Svaki segment instalacije se naknadno iscrtava i osvjetljava projektorom (mapira), te se dobiva dinamičnost instalacije u odnosu na zvuk i prostor. Osim na Movingu FnF5 instalacije se moglo vidjeti i na drugim eventima i festivalima."
     }
   },
   {
     "day": 3,
     "id": 14,
+    "bigDesc": true,
     "name": "Chui",
-    "time": "22.00 - 00.00",
+    "time": "22.00 — 00.00",
     "img": "chui_img.png",
-    "bio": "Chui su mladi hrvatski trio koji njeguje ponešto drugačiji pristup jazzu. Spoj suvremene klupske plesne glazbe u kombinaciji sa jazzom, elektronikom i rock'n'roll beskompromisnim pristupom već sa prvim albumom („Chui“ Dancing Bear 2012.) osigurao je Chuievcima kultni status na hrvatskoj glazbenoj sceni. Krajem 2013. godine za Dancing Bear objavljuju i drugi album „The Second Arrival“ koji kao i prvijenac dobiva samo pohvale od glazbene kritike i publike. Chui nastupa u sastavu Toni Starešinić – klavijature & elektronika, Vojkan Jocić – sax & elektronika, Janko Novoselić – bubnjevi.",
     "links": [
       {
         "name": "Facebook",
@@ -856,18 +867,19 @@
       },
       {
         "name": "SoundCloud",
-        "link": "https://soundcloud.com/chui-music"
+        "link": "https://soundcloud.com/chui—music"
       }
     ],
     "workshop": {
-      "name": "rock jazz ambiental electronic minimal d'n'b hip hop funk space spiritual"
+      "description": "Chui su mladi hrvatski trio koji njeguje ponešto drugačiji pristup jazzu. Spoj suvremene klupske plesne glazbe u kombinaciji sa jazzom, elektronikom i rock'n'roll beskompromisnim pristupom već sa prvim albumom („Chui“ Dancing Bear 2012.) osigurao je Chuievcima kultni status na hrvatskoj glazbenoj sceni. Krajem 2013. godine za Dancing Bear objavljuju i drugi album „The Second Arrival“ koji kao i prvijenac dobiva samo pohvale od glazbene kritike i publike. Chui nastupa u sastavu Toni Starešinić – klavijature & elektronika, Vojkan Jocić – sax & elektronika, Janko Novoselić – bubnjevi.",
+      "name": "Rock, jazz, ambiental, electronic, minimal d'n'b, hip hop, funk, space, spiritual"
     }
   },
   {
     "day": 3,
     "id": 15,
     "name": "Sir John",
-    "time": "00.00 - 02.00",
+    "time": "00.00 — 02.00",
     "img": "sir_john_img.png",
     "workshop": {
       "name": "Strictly Reggae"
@@ -877,9 +889,9 @@
     "day": 3,
     "id": 16,
     "name": "Kodin",
-    "time": "02.00 - 04.00",
+    "time": "02.00 — 04.00",
     "img": "kodin_img.png",
-    "bio": "Kodin je jedan od hrvatskih drum & bass producenata i dj-a. Njegove pjesme se mogu pronaći u mixevima raznih domaćih i stranih DJ-a. Kvalitetu dokazuje i prvim hrvatskim drum & bass izdanjem na vinylu za britanski Ascenzion Records pod nazivom “Girl In A Delirium“ 2007. godine.",
+    "bio": "Kodin je jedan od hrvatskih drum & bass producenata i dj—a. Njegove pjesme se mogu pronaći u mixevima raznih domaćih i stranih DJ—a. Kvalitetu dokazuje i prvim hrvatskim drum & bass izdanjem na vinylu za britanski Ascenzion Records pod nazivom “Girl In A Delirium“ 2007. godine.",
     "links": [
       {
         "name": "Facebook",

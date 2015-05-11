@@ -69,4 +69,20 @@
       }
     }
   }
+  .contact{
+    float:right;
+    width: 560px;
+    border-bottom:1px solid $dorado;
+    p{
+      float:left;
+      color:$dorado;
+      margin-bottom:40px;
+      &:nth-child(2){
+        margin-left:50px;
+      }
+      span{
+        color:$green;
+      }
+    }
+  }
 }

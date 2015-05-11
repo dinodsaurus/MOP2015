@@ -10,15 +10,15 @@
         </li>
         <li class="colorChange" ng-click="schedule.switchDay()" ng-class="{active: schedule.activeDay == 1, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Četvrtak</h4>
-          <p>Dan 1 - 21.05.</p>
+          <p>Dan 1 — 21.05.</p>
         </li>
         <li class="colorChange" ng-click="schedule.switchDay(2)" ng-class="{active: schedule.activeDay == 2, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Petak</h4>
-          <p>Dan 2 - 22.05.</p>
+          <p>Dan 2 — 22.05.</p>
         </li>
         <li class="colorChange" ng-click="schedule.switchDay(3)" ng-class="{active: schedule.activeDay == 3, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
           <h4>Subota</h4>
-          <p>Dan 3 - 23.05.</p>
+          <p>Dan 3 — 23.05.</p>
         </li>
       </ul>
     </div>
@@ -27,7 +27,7 @@
     <div class="program">
       <div class="pres group" id="guest{{guest.id}}" ng-repeat="guest in schedule.guests" ng-if="guest.time" ng-click="schedule.activateGuest(guest)" ng-class="{active: guest.active}">
         <div class="time">
-          <p class="hidden">KADA I GDJE</p>
+          <p class="hidden short">KADA I GDJE</p>
           <p class="vis colorChange">{{ guest.time }}</p>
           <p class="hidden" ng-if="!guest.type">Palača Herzer</p>
           <p class="hidden" ng-if="!guest.type">Franjevački trg 6</p>
@@ -35,7 +35,7 @@
           <p class="hidden" ng-if="guest.type === 'lavra'">Ulica Ljudevita Gaja 17</p>
         </div>
         <div class="name">
-          <p class="hidden">BIO</p>
+          <p class="hidden short">BIO</p>
           <p class="vis colorChange">{{ guest.name }}</p>
           <img ng-if="guest.img" class="bigHidden" ng-src="img/guests/{{guest.img}}"/>
           <img ng-if="guest.imgs" ng-repeat="img in guest.imgs" class="bigHidden" ng-src="img/guests/{{img}}"/>
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="theme">
-          <p class="hidden">OPIS</p>
+          <p class="hidden short">OPIS</p>
           <p class="vis colorChange">{{guest.workshop.name}}</p>
           <p class="bigHidden" ng-if="!guest.workshop.descriptions" ng-class="{bigDesc: guest.bigDesc}">{{guest.workshop.description}}</p>
           <p class="bigHidden" ng-if="guest.workshop.descriptions" ng-repeat="desc in guest.workshop.descriptions">{{desc}}</p>

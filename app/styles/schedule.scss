@@ -113,7 +113,7 @@
           max-height:18px;
         }
         .bigHidden{
-          max-height:100px;
+          max-height:300px;
         }
         .links{
           max-height:300px;
@@ -135,6 +135,9 @@
         font-size:20px;
         @include publico-bold;
         line-height: 1.4;
+      }
+      .short{
+        letter-spacing: 3px;
       }
       .hidden, .bigHidden{
         max-height:0;

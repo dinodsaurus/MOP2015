@@ -1,10 +1,22 @@
 @import "utils/colors";
 #bars {
-    position: absolute;
+  cursor:pointer;
+    position: fixed;
     height: 30px;
     width: 30px;
-    top: -60px;
-    right: 30px;
+    bottom: 30px;
+    left: -50px;
+    z-index:100;
+    transition:left .5s;
+    .line{
+      transform: rotate(-45deg);
+      position:absolute;
+      top:20px;
+      left:-15px;
+      width: 55px;
+      height: 1px;
+      background: $red;
+    }
 }
 
 .bar {
