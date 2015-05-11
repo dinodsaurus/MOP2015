@@ -1,5 +1,5 @@
 <div class="schedule">
-  <div class="nav" sticky sticky-class="active">
+  <div class="nav" sticky sticky-class="active" media-query="min-width: 768px">
     <div class="container">
       <ul>
         <li class="arr">
@@ -9,15 +9,18 @@
           </div>
         </li>
         <li class="colorChange" ng-click="schedule.switchDay()" ng-class="{active: schedule.activeDay == 1, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
-          <h4>Četvrtak</h4>
+          <h4 class="big">Četvrtak</h4>
+          <h4 class="small">Čet</h4>
           <p>Dan 1 — 21.05.</p>
         </li>
         <li class="colorChange" ng-click="schedule.switchDay(2)" ng-class="{active: schedule.activeDay == 2, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
-          <h4>Petak</h4>
+          <h4 class="big">Petak</h4>
+          <h4 class="small">Pet</h4>
           <p>Dan 2 — 22.05.</p>
         </li>
         <li class="colorChange" ng-click="schedule.switchDay(3)" ng-class="{active: schedule.activeDay == 3, green: main.color ==='green', blue: main.color === 'blue', red: main. color === 'red'}">
-          <h4>Subota</h4>
+          <h4 class="big">Subota</h4>
+          <h4 class="small">Sub</h4>
           <p>Dan 3 — 23.05.</p>
         </li>
       </ul>

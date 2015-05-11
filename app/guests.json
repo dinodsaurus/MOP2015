@@ -5,7 +5,7 @@
     "guestNoShow": true,
     "name": "Radiona.org",
     "time": "13.00 — 20.00",
-    "bio": "Electro—Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
+    "bio": "Electro — Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
     "links": [
       {
         "name": "Radiona.org",
@@ -17,7 +17,7 @@
       }
     ],
     "workshop": {
-      "name": "Izložba  Electro—Baroque",
+      "name": "Izložba  Electro — Baroque",
       "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio—instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
     }
   },
@@ -77,7 +77,7 @@
     "name": "Square Cube",
     "guestNoShow": true,
     "time": "13.00 — 20.00",
-    "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
+    "bio": "Autori instalacije su Tena Križanec i Matija Županić, a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveučilistu Sjever.",
     "links": [
       {
         "name": "Facebook",
@@ -254,7 +254,7 @@
     "name": "Radiona.org",
     "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Electro—Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
+    "bio": "Electro — Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
     "links": [
       {
         "name": "Radiona.org",
@@ -266,7 +266,7 @@
       }
     ],
     "workshop": {
-      "name": "Izložba  Electro—Baroque",
+      "name": "Izložba  Electro — Baroque",
       "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio—instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
     }
   },
@@ -326,7 +326,7 @@
     "name": "Square Cube",
     "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
+    "bio": "Autori instalacije su Tena Križanec i Matija Županić, a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveučilistu Sjever.",
     "workshop": {
       "name": "Instalacija u prostoru",
       "description": " Projekt Square cube zamišljen je kao instalacija koja će skrenuti pažnju na ljepotu svakodnevnih uličnih prizora, te potaknuti prolaznike da aktivno (ili pasivno) sudjeluju u realizaciji kao promatrači ili objekt promatranja i naposljetku i sami postanu dio projekta."
@@ -517,7 +517,7 @@
     "name": "Radiona.org",
     "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Electro—Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
+    "bio": "Electro — Baroque predstavlja presjek intermedijskih umjetničkih i tehnoloških radova nastalih kroz posljednjih tri godine u kreativnom i tehnološkom labu Radione, uključujući i najnovije radove iz 2015. godine.",
     "links": [
       {
         "name": "Radiona.org",
@@ -529,7 +529,7 @@
       }
     ],
     "workshop": {
-      "name": "Izložba  Electro—Baroque",
+      "name": "Izložba  Electro — Baroque",
       "description": "Povezujući na izložbi zvuk i biologiju kroz elektroničke uređaje, članovi Radione prezentiraju svoje audio—instrumente i gadgete (oscilatore, sintesajzere, zvučne kutije, teremine, filtre), instalacije pogonjene Arduino mikrokontrolerom i miniračunalom Raspberry Pi, akustičnim glazbenim instrumentima, upotrebom vintage i retro tehnologija, programskim jezicima, circuit bendingom."
     }
   },
@@ -589,7 +589,7 @@
     "name": "Square Cube",
     "time": "13.00 — 20.00",
     "same": true,
-    "bio": "Autori instalacije su Tena Krizanec i Matija Zupanic a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveucilistu Sjever.",
+    "bio": "Autori instalacije su Tena Križanec i Matija Županić, a ideja je nastala kao studentski projekt u sklopu kolegija Vizualna kultura na Sveučilistu Sjever.",
     "workshop": {
       "name": "Instalacija u prostoru",
       "description": " Projekt Square cube zamišljen je kao instalacija koja će skrenuti pažnju na ljepotu svakodnevnih uličnih prizora, te potaknuti prolaznike da aktivno (ili pasivno) sudjeluju u realizaciji kao promatrači ili objekt promatranja i naposljetku i sami postanu dio projekta."
@@ -614,7 +614,7 @@
     ],
     "workshop": {
       "name": "Nije RWD sve što sja",
-      "description": "Kroz pristup dizajniranja u browseru, prikazat će se osnovna izrada stranice koja radi na više uređaja. Stranica će imati klasičan layout na primjeru kojega će se pokušati približiti ponašanje različitih kolumni u drugačijim okruženjima. (ovdje mi je problem jer ne znam da li da krenem from scratch, ono, totalno HTML basics pa onda u RWD idem, ili da dofuram gotovi layout pa da radim navigaciju u RWD koja je složenija ali fornija jer je rezultat bolji)."
+      "description": "Kroz pristup dizajniranja u browseru, prikazat će se osnovna izrada stranice koja radi na više uređaja. Stranica će imati klasičan layout na primjeru kojega će se pokušati približiti ponašanje različitih kolumni u drugačijim okruženjima."
     }
   },
   {

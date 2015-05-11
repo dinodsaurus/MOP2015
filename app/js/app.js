@@ -7,7 +7,8 @@ angular.module("mopfest2015", [
   "LocalStorageModule",
   "uiGmapgoogle-maps",
   "ngAnimate",
-  "duScroll"
+  "duScroll",
+  "ngTouch"
 ])
 .config(function ($stateProvider, $urlRouterProvider, $anchorScrollProvider) {
   $stateProvider
