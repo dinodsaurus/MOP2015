@@ -112,9 +112,11 @@
       left:0%;
       width: 100%;
       border-top:1px solid $mineShaft;
-      border-bottom:1px solid $mineShaft;
       cursor:pointer;
       margin-bottom:0;
+      &:last-child{
+        border-bottom:1px solid $mineShaft;
+      }
       &.ng-move,
       &.ng-enter,
       &.ng-leave {
