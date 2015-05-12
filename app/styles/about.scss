@@ -44,7 +44,9 @@
     }
     .left{
       float:left;
-      width: 100%;
+      @include breakpoint(md) {
+        width: 100%;
+      }
       h3{
         color:$dorado;
         @include publico-bold;
@@ -103,6 +105,10 @@
       &:nth-child(2){
         margin-left:50px;
         @include breakpoint(md) {
+          margin-left:30px;
+        }
+        @include breakpoint(xs) {
+          width: 100%;
           margin-left:0;
         }
       }
