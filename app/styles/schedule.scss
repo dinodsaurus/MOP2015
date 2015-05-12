@@ -145,6 +145,18 @@
         .bigDesc{
           max-height:500px;
         }
+        @include breakpoint(sm) {
+          .links{
+            margin-bottom:20px;
+          }
+          .name{
+            margin-top:20px;
+          }
+          .theme{
+            margin-bottom:20px;
+          }
+        }
+
       }
       img{
         width: 60px;
@@ -204,6 +216,7 @@
       .time{
         width:25%;
         @include breakpoint(sm) {
+          width: 100%;
           padding:10px 0 0 0;
         }
       }
@@ -224,7 +237,6 @@
           padding:0;
           width: 100%;
           border-bottom:none;
-
         }
         .vis{
           line-height: 1.5;
