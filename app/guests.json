@@ -445,6 +445,7 @@
     "name": "Tomislav Car",
     "time": "19.00 — 20.00",
     "img": "tomislav_car.png",
+    "bio":"Tomislav je direktor i osnivač Infinuma, tvrtke specijalizirane za design i razvoj mobilnih i web aplikacija. U svom profesionalnom životu nalazi se na presjeku biznisa, programiranja i dizajna preko 12 godina. Skupa sa svojim partnerima, Tomislav je razvio Infinum od fakultetskog hobija do respektabilne softverske tvrtke s preko 65 zaposlenih i globalnim klijentima.",
     "links": [
       {
         "name": "Infinum",
@@ -452,7 +453,8 @@
       }
     ],
     "workshop": {
-      "name": "Infinum co."
+      "name": "Kako postati (i ostati) jako dobar programer?",
+      "description":"Dnevne novine vrište naslovima - programer, najbolje zanimanje ikad. Sjediš doma u gaćama u kuhinji za laptopom koji ti je baka kupila i zarađuješ novce. Može li bolje od toga? Ali, kako doći do toga? Postoji razlog zašto kvalitetnih programera danas još uvijek nedostaje na tržištu rada. Kako postati baš jako jako dobar programer? Koje su to vještine, znanja i crte ličnosti potrebne? Odgovorit ćemo i na pitanje može li bilo tko biti programer? Što kad programer poželi biti menadžer? Što kad menadžer poželi biti programer? Možda odgovorimo i na pitanje koliko programera treba da ušerafe žarulju."
     }
   },
   {
