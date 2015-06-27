@@ -6,15 +6,15 @@ angular.module("mopfest2015")
   SoundService.toggleSound = function (s) {
     sound = s;
     if(!s){
-      localStorageService.set("sound", "");
+      localStorageService.set("sound", "nosound");
     }else{
       localStorageService.set("sound", s);
     }
   };
 
   SoundService.playSound = function () {
-    //var num = Math.floor((Math.random() * 3) + 1);
-    if(sound){
+    sound = localStorageService.get("sound");
+    if(sound !== "nosound"){
       var audio = new Audio("audio/1.mp3");
       audio.play();
     }

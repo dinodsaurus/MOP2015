@@ -41,6 +41,17 @@
       @include breakpoint(md) {
         height: 300px;
       }
+      @include breakpoint(xs) {
+        width: 100%;
+        height:auto;
+        border-left:none;
+        border-bottom:none;
+        .icon{
+          border-right:1px solid $codGray;
+          border-left:1px solid $codGray;
+          border-bottom:1px solid $codGray;
+        }
+      }
       .icon{
         position:relative;
         float:left;
@@ -97,12 +108,23 @@
             border-left: 1px solid $codGray;
           }
         }
+        &:nth-last-child(-n+4){
+          border-bottom:1px solid $codGray;
+          @include breakpoint(xs) {
+            border-bottom:none;
+          }
+        }
+        @include breakpoint(xs) {
+          width: 100%;
+          border-left: 1px solid $codGray;
+          &:last-child{
+            border-bottom:1px solid $codGray;
+          }
+        }
         &:nth-child(1),&:nth-child(5),&:nth-child(9),&:nth-child(13),&:nth-child(17),&:nth-child(21){
           border-left: 1px solid $codGray;
         }
-        &:nth-last-child(-n+4){
-          border-bottom:1px solid $codGray;
-        }
+
         &.big{
           width: 100%;
           img{
@@ -135,6 +157,9 @@
       float:left;
       width: 50%;
       min-height:100px;
+      @include breakpoint(xs) {
+        width: 100%;
+      }
       .icon{
         position:relative;
         float:left;
@@ -154,6 +179,9 @@
           height: 300px;
           &:nth-child(1){
             border-right: 1px solid $codGray;
+            @include breakpoint(xs) {
+              border-top:none;
+            }
           }
           &:nth-child(2){
             border-right: 1px solid $codGray;
@@ -163,7 +191,6 @@
             display:none;
           }
         }
-
 
         &.big{
           width: 100%;

@@ -52,7 +52,7 @@
         </div>
         <div class="theme">
           <p class="hidden short">OPIS</p>
-          <p class="vis colorChange">{{guest.workshop.name}}</p>
+          <p class="vis colorChange heading">{{guest.workshop.name}}</p>
           <p class="bigHidden" ng-if="!guest.workshop.descriptions" ng-class="{bigDesc: guest.bigDesc}">{{guest.workshop.description}}</p>
           <p class="bigHidden" ng-if="guest.workshop.descriptions" ng-repeat="desc in guest.workshop.descriptions">{{desc}}</p>
         </div>

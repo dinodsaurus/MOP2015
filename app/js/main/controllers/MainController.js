@@ -4,7 +4,7 @@ angular.module("mopfest2015")
 .controller("MainController", function (localStorageService, $window, $scope, $document, SoundService) {
   var self = this;
   var oldImg;
-  self.sound = (localStorageService.get("sound")) ? true : false;
+  self.sound = (localStorageService.get("sound") !== "nosound") ? true : false;
   self.headText = "Digital world<br/> in focus";
   self.color = localStorageService.get("color") || "green";
   self.currentActive = false;
