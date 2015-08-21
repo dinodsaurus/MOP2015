@@ -1,6 +1,7 @@
 "use strict";
 angular.module("mopfest2015")
-.controller("ScheduleController", function ($scope, GuestService, $state, $stateParams,$location, $anchorScroll, $timeout) {
+.controller("ScheduleController", function ($scope, GuestService, $state, $stateParams,$location, $anchorScroll, $timeout, $document, $window) {
+
   $scope.$emit("switchLink", {"nav": "second", "text": "Program"});
   var self = this,
       guests,
@@ -34,6 +35,7 @@ angular.module("mopfest2015")
       });
     }
   });
+
   self.activateGuest = function (guest) {
     guest.active = !guest.active;
     console.log(guest);
@@ -46,6 +48,7 @@ angular.module("mopfest2015")
     }else{
       self.activeDay = day;
     }
+    $document.scrollTop($window.innerHeight - 115, 500);
     self.guests = guests["guests" + day];
     $state.go("main.schedule",{ "day": day, "guest": "" }, {notify: false});
   };

@@ -8,7 +8,8 @@ angular.module("mopfest2015", [
   "uiGmapgoogle-maps",
   "ngAnimate",
   "duScroll",
-  "ngTouch"
+  "ngTouch",
+  "duScroll"
 ])
 .config(function ($stateProvider, $urlRouterProvider, $anchorScrollProvider) {
   $stateProvider
